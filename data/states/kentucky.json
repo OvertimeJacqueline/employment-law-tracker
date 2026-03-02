@@ -1,0 +1,29 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Kentucky",
+  "laws": [
+    {
+      "id": "ke-001",
+      "title": "Kentucky Minimum Wage \u2014 Federal $7.25/hr",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Kentucky has not enacted a state minimum wage above the federal $7.25/hour. Kentucky is an at-will employment state with limited state-level protections beyond federal law.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Comply with federal minimum wage ($7.25/hr) \u2014 no higher state rate applies",
+        "Kentucky has no state paid family leave or paid sick leave law \u2014 FMLAtis the floor",
+        "Review federal law requirements (ADA, Title VII, FMLA) which apply to Kentucky employees"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/kentucky-employment-law-overview/",
+      "tags": [
+        "minimum wage",
+        "Kentucky",
+        "at-will"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
