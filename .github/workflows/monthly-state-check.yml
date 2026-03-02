@@ -1,0 +1,35 @@
+name: Monthly State List Check
+
+on:
+  schedule:
+    # Runs on the 1st of every month at 8:00 AM Eastern (13:00 UTC)
+    - cron: "0 13 1 * *"
+  workflow_dispatch:  # Allow manual runs
+
+jobs:
+  check-states:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install gspread google-auth
+
+      - name: Check Google Sheet for state changes
+        env:
+          SPREADSHEET_ID: "1er3jynzBjFBEm91_P0hR5oldbBc6NZb7UP_uqKgqlmM"
+          # GOOGLE_CREDENTIALS_JSON must be set as a GitHub secret (see README)
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+        run: |
+          python scripts/check_states.py || {
+            echo ""
+            echo "::warning::State list has changed! Review the output above and update the site manually."
+            exit 0
+          }
