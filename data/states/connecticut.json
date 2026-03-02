@@ -1,0 +1,53 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Connecticut",
+  "laws": [
+    {
+      "id": "ct-001",
+      "title": "Connecticut Minimum Wage \u2014 $16.35/hr (2025)",
+      "status": "recent",
+      "effective_date": "2025-01-01",
+      "deadline": "2025-01-01",
+      "summary": "Connecticut's minimum wage increased to $16.35/hour effective January 1, 2025, with further increases indexed to CPI going forward. Tipped employees: hotel/restaurant service employees must be paid at least $8.23/hr (tip credit applies).",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Ensure all Connecticut employees earn at least $16.35/hr",
+        "Update payroll for tipped employees \u2014 verify tip credit is properly applied",
+        "Post the Connecticut minimum wage poster at CT worksites"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/connecticut-minimum-wage",
+      "tags": [
+        "minimum wage",
+        "Connecticut"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "ct-002",
+      "title": "Connecticut Paid Family & Medical Leave \u2014 Employee Contributions",
+      "status": "recent",
+      "effective_date": "2022-01-01",
+      "deadline": null,
+      "summary": "Connecticut's Paid Family and Medical Leave (PFML) provides up to 12 weeks of paid leave for qualifying reasons. Employees contribute 0.5% of wages (up to the Social Security wage base). Benefits began January 2022. Employers must register with CT Paid Leave Authority and withhold employee contributions. Self-funded exemptions are possible with approval.",
+      "applies_to_company": true,
+      "min_employee_threshold": 1,
+      "compliance_actions": [
+        "Ensure you are registered with the CT Paid Leave Authority",
+        "Deduct the 0.5% employee contribution from all CT employee wages",
+        "Update employee handbook with CT PFML information",
+        "Post the CT Paid Leave notice at all Connecticut worksites",
+        "Train HR on how CT PFML coordinates with FMLA and CT sick leave"
+      ],
+      "source": "Seyfarth Shaw",
+      "source_url": "https://www.seyfarth.com/news-insights/connecticut-paid-family-medical-leave.html",
+      "tags": [
+        "paid family leave",
+        "Connecticut",
+        "PFML"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
