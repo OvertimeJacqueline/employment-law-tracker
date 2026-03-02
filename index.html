@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employment Law Tracker | Overtime</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+  <style>
+    :root {
+      --primary: #1a2f5e;
+      --primary-light: #2a4a8e;
+      --upcoming: #ea580c;
+      --recent: #15803d;
+      --proposed: #1d4ed8;
+      --repealed: #b91c1c;
+      --sidebar-width: 260px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #f1f5f9;
+      margin: 0;
+    }
+
+    /* ── Navbar ── */
+    .top-nav {
+      background: var(--primary);
+      color: white;
+      padding: 0 1.5rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    .top-nav .brand {
+      font-weight: 700;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .top-nav .brand span.sub { font-weight: 400; opacity: 0.75; font-size: 0.9rem; }
+    .last-updated-nav { font-size: 0.78rem; opacity: 0.65; }
+
+    /* ── Layout ── */
+    .app-body {
+      display: flex;
+      min-height: calc(100vh - 56px);
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: var(--sidebar-width);
+      min-width: var(--sidebar-width);
+      background: white;
+      border-right: 1px solid #e2e8f0;
+      overflow-y: auto;
+      position: sticky;
+      top: 56px;
+      height: calc(100vh - 56px);
+    }
+    .sidebar-section-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #94a3b8;
+      padding: 1rem 1.1rem 0.3rem;
+    }
+    .sidebar a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1.1rem;
+      color: #374151;
+      text-decoration: none;
+      font-size: 0.875rem;
+      border-left: 3px solid transparent;
+      transition: background 0.1s, color 0.1s;
+    }
+    .sidebar a:hover { background: #f8fafc; color: var(--primary); }
+    .sidebar a.active {
+      background: #eff6ff;
+      color: var(--primary);
+      font-weight: 600;
+      border-left-color: var(--primary);
+    }
+    .sidebar a .priority-star { color: #f59e0b; font-size: 0.7rem; margin-left: auto; }
+    .sidebar a .bi { font-size: 0.9rem; opacity: 0.6; }
+    .sidebar-divider { border-top: 1px solid #f1f5f9; margin: 0.4rem 0; }
+
+    /* ── Main ── */
+    .main { flex: 1; min-width: 0; }
+
+    .page-header {
+      background: white;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 1.5rem 2rem 1rem;
+    }
+    .page-header h1 { font-size: 1.4rem; font-weight: 700; color: var(--primary); margin: 0; }
+    .page-header p { margin: 0.25rem 0 0; color: #64748b; font-size: 0.875rem; }
+
+    .filter-bar {
+      background: white;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 0.6rem 2rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .filter-bar .label { font-size: 0.8rem; color: #64748b; margin-right: 0.25rem; }
+    .filter-btn {
+      border: 1px solid #e2e8f0;
+      background: white;
+      border-radius: 20px;
+      padding: 0.2rem 0.75rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: #374151;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover { border-color: var(--primary); color: var(--primary); }
+    .filter-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
+    .search-input {
+      border: 1px solid #e2e8f0;
+      border-radius: 20px;
+      padding: 0.2rem 0.9rem;
+      font-size: 0.8rem;
+      outline: none;
+      width: 200px;
+      margin-left: auto;
+    }
+    .search-input:focus { border-color: var(--primary); }
+
+    .content-area { padding: 1.5rem 2rem; }
+
+    /* ── Law Cards ── */
+    .law-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+    .law-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.09); }
+    .law-card.not-applicable { opacity: 0.55; }
+    .law-card-header {
+      padding: 1rem 1.25rem 0.75rem;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .law-card-header h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #111827;
+      margin: 0 0 0.4rem;
+      line-height: 1.35;
+    }
+    .law-card-header h3 a { color: inherit; text-decoration: none; }
+    .law-card-header h3 a:hover { color: var(--primary); text-decoration: underline; }
+
+    .meta-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    /* Status badges */
+    .badge-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .badge-upcoming { background: #fff7ed; color: var(--upcoming); border: 1px solid #fed7aa; }
+    .badge-recent   { background: #f0fdf4; color: var(--recent);   border: 1px solid #bbf7d0; }
+    .badge-proposed { background: #eff6ff; color: var(--proposed); border: 1px solid #bfdbfe; }
+    .badge-repealed { background: #fef2f2; color: var(--repealed); border: 1px solid #fecaca; }
+
+    .badge-jurisdiction {
+      background: #f8fafc;
+      color: #475569;
+      border: 1px solid #e2e8f0;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+    }
+
+    /* Deadline */
+    .deadline-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.2rem 0.65rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .deadline-none    { background: #f1f5f9; color: #64748b; }
+    .deadline-future  { background: #fefce8; color: #a16207; border: 1px solid #fde68a; }
+    .deadline-soon    { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
+    .deadline-urgent  { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+    .deadline-passed  { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+
+    /* Card body */
+    .law-card-body { padding: 0.9rem 1.25rem; }
+
+    .summary-text { font-size: 0.9rem; color: #374151; line-height: 1.55; margin-bottom: 0.75rem; }
+
+    .not-applicable-notice {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      border-radius: 6px;
+      padding: 0.45rem 0.75rem;
+      font-size: 0.8rem;
+      color: #64748b;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.4rem;
+    }
+
+    .compliance-section h4 {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #6b7280;
+      margin: 0 0 0.4rem;
+    }
+    .compliance-section ol {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+    .compliance-section ol li {
+      font-size: 0.875rem;
+      color: #1f2937;
+      margin-bottom: 0.3rem;
+      line-height: 1.45;
+    }
+
+    .law-card-footer {
+      padding: 0.5rem 1.25rem;
+      background: #fafafa;
+      border-top: 1px solid #f1f5f9;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      color: #9ca3af;
+    }
+    .law-card-footer a { color: #6b7280; text-decoration: none; }
+    .law-card-footer a:hover { color: var(--primary); text-decoration: underline; }
+
+    /* ── Upcoming stats ── */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .stat-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      text-align: center;
+    }
+    .stat-number { font-size: 2rem; font-weight: 800; line-height: 1; margin-bottom: 0.2rem; }
+    .stat-label  { font-size: 0.78rem; color: #64748b; }
+
+    /* ── Repeal callout ── */
+    .repeal-notice {
+      background: #fef2f2;
+      border-left: 4px solid var(--repealed);
+      padding: 0.6rem 0.9rem;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.85rem;
+      color: #7f1d1d;
+      margin-bottom: 0.75rem;
+    }
+
+    /* ── Proposed callout ── */
+    .proposed-notice {
+      background: #eff6ff;
+      border-left: 4px solid var(--proposed);
+      padding: 0.6rem 0.9rem;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.85rem;
+      color: #1e3a8a;
+      margin-bottom: 0.75rem;
+    }
+
+    /* ── Empty state ── */
+    .empty-state {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: #94a3b8;
+    }
+    .empty-state i { font-size: 2.5rem; margin-bottom: 0.75rem; display: block; }
+
+    /* ── Loading ── */
+    .spinner-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem;
+    }
+
+    /* ── Mobile ── */
+    .sidebar-toggle { display: none; background: none; border: none; color: white; font-size: 1.3rem; }
+    @media (max-width: 768px) {
+      .sidebar { display: none; position: fixed; top: 56px; left: 0; z-index: 90; height: calc(100vh - 56px); }
+      .sidebar.open { display: block; }
+      .sidebar-toggle { display: block; }
+      .content-area { padding: 1rem; }
+      .page-header { padding: 1rem; }
+      .filter-bar { padding: 0.6rem 1rem; }
+    }
+
+    /* ── Tooltip-like notes ── */
+    .proposed-momentum {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.2rem;
+      font-size: 0.75rem;
+      color: var(--proposed);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Top Navbar ── -->
+<nav class="top-nav">
+  <div class="brand">
+    <button class="sidebar-toggle" onclick="toggleSidebar()" aria-label="Menu">
+      <i class="bi bi-list"></i>
+    </button>
+    <i class="bi bi-shield-check" style="color:#60a5fa"></i>
+    Employment Law Tracker
+    <span class="sub">| Overtime</span>
+  </div>
+  <div class="last-updated-nav" id="nav-last-updated">Last updated: —</div>
+</nav>
+
+<!-- ── App Body ── -->
+<div class="app-body">
+
+  <!-- ── Sidebar ── -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-section-label">Overview</div>
+    <a href="#upcoming" data-view="upcoming">
+      <i class="bi bi-clock-history"></i> Upcoming Changes
+    </a>
+    <a href="#federal" data-view="federal">
+      <i class="bi bi-flag"></i> Federal Laws
+    </a>
+    <div class="sidebar-divider"></div>
+
+    <div class="sidebar-section-label">Priority States</div>
+    <a href="#state/california" data-view="state/california">
+      <i class="bi bi-geo-alt"></i> California
+      <span class="priority-star">★</span>
+    </a>
+    <a href="#state/new-york" data-view="state/new-york">
+      <i class="bi bi-geo-alt"></i> New York
+      <span class="priority-star">★</span>
+    </a>
+    <a href="#state/georgia" data-view="state/georgia">
+      <i class="bi bi-geo-alt"></i> Georgia
+      <span class="priority-star">★</span>
+    </a>
+    <div class="sidebar-divider"></div>
+
+    <div class="sidebar-section-label">All States</div>
+    <a href="#state/arizona" data-view="state/arizona"><i class="bi bi-geo-alt"></i> Arizona</a>
+    <a href="#state/colorado" data-view="state/colorado"><i class="bi bi-geo-alt"></i> Colorado</a>
+    <a href="#state/connecticut" data-view="state/connecticut"><i class="bi bi-geo-alt"></i> Connecticut</a>
+    <a href="#state/florida" data-view="state/florida"><i class="bi bi-geo-alt"></i> Florida</a>
+    <a href="#state/illinois" data-view="state/illinois"><i class="bi bi-geo-alt"></i> Illinois</a>
+    <a href="#state/indiana" data-view="state/indiana"><i class="bi bi-geo-alt"></i> Indiana</a>
+    <a href="#state/kentucky" data-view="state/kentucky"><i class="bi bi-geo-alt"></i> Kentucky</a>
+    <a href="#state/massachusetts" data-view="state/massachusetts"><i class="bi bi-geo-alt"></i> Massachusetts</a>
+    <a href="#state/michigan" data-view="state/michigan"><i class="bi bi-geo-alt"></i> Michigan</a>
+    <a href="#state/minnesota" data-view="state/minnesota"><i class="bi bi-geo-alt"></i> Minnesota</a>
+    <a href="#state/new-jersey" data-view="state/new-jersey"><i class="bi bi-geo-alt"></i> New Jersey</a>
+    <a href="#state/north-carolina" data-view="state/north-carolina"><i class="bi bi-geo-alt"></i> North Carolina</a>
+    <a href="#state/ohio" data-view="state/ohio"><i class="bi bi-geo-alt"></i> Ohio</a>
+    <a href="#state/pennsylvania" data-view="state/pennsylvania"><i class="bi bi-geo-alt"></i> Pennsylvania</a>
+    <a href="#state/tennessee" data-view="state/tennessee"><i class="bi bi-geo-alt"></i> Tennessee</a>
+    <a href="#state/texas" data-view="state/texas"><i class="bi bi-geo-alt"></i> Texas</a>
+    <a href="#state/utah" data-view="state/utah"><i class="bi bi-geo-alt"></i> Utah</a>
+    <a href="#state/virginia" data-view="state/virginia"><i class="bi bi-geo-alt"></i> Virginia</a>
+    <a href="#state/washington" data-view="state/washington"><i class="bi bi-geo-alt"></i> Washington</a>
+  </nav>
+
+  <!-- ── Main Content ── -->
+  <main class="main" id="main-content">
+    <div class="spinner-wrap" id="loading">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading…</span>
+      </div>
+    </div>
+    <div id="view-container" style="display:none"></div>
+  </main>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script>
+// ── Constants ──────────────────────────────────────────────────────────────
+const COMPANY_SIZE = 500;
+const DATA_BASE    = 'data/';
+
+const STATE_MAP = {
+  'arizona':        'Arizona',
+  'california':     'California',
+  'colorado':       'Colorado',
+  'connecticut':    'Connecticut',
+  'florida':        'Florida',
+  'georgia':        'Georgia',
+  'illinois':       'Illinois',
+  'indiana':        'Indiana',
+  'kentucky':       'Kentucky',
+  'massachusetts':  'Massachusetts',
+  'michigan':       'Michigan',
+  'minnesota':      'Minnesota',
+  'new-jersey':     'New Jersey',
+  'new-york':       'New York',
+  'north-carolina': 'North Carolina',
+  'ohio':           'Ohio',
+  'pennsylvania':   'Pennsylvania',
+  'tennessee':      'Tennessee',
+  'texas':          'Texas',
+  'utah':           'Utah',
+  'virginia':       'Virginia',
+  'washington':     'Washington',
+};
+
+// ── State ─────────────────────────────────────────────────────────────────
+let currentFilter = 'all';
+let searchQuery   = '';
+let allLaws       = [];  // for upcoming view
+
+// ── Utilities ─────────────────────────────────────────────────────────────
+function daysUntil(dateStr) {
+  if (!dateStr) return null;
+  const diff = new Date(dateStr) - new Date();
+  return Math.ceil(diff / (1000 * 60 * 60 * 24));
+}
+
+function formatDate(dateStr) {
+  if (!dateStr) return '—';
+  return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-US', {
+    year: 'numeric', month: 'short', day: 'numeric'
+  });
+}
+
+function deadlinePill(deadline, status) {
+  if (!deadline) return `<span class="deadline-pill deadline-none"><i class="bi bi-dash"></i> No deadline</span>`;
+  const d = daysUntil(deadline);
+  if (status === 'recent' || d < 0)
+    return `<span class="deadline-pill deadline-passed"><i class="bi bi-check-circle"></i> Effective ${formatDate(deadline)}</span>`;
+  if (d <= 30)
+    return `<span class="deadline-pill deadline-urgent"><i class="bi bi-exclamation-circle-fill"></i> ${d} days left — ${formatDate(deadline)}</span>`;
+  if (d <= 90)
+    return `<span class="deadline-pill deadline-soon"><i class="bi bi-clock"></i> ${d} days — ${formatDate(deadline)}</span>`;
+  return `<span class="deadline-pill deadline-future"><i class="bi bi-calendar3"></i> ${formatDate(deadline)}</span>`;
+}
+
+function statusBadge(status) {
+  const map = {
+    upcoming: { cls:'badge-upcoming', icon:'bi-clock-history',    label:'Upcoming' },
+    recent:   { cls:'badge-recent',   icon:'bi-check-circle-fill',label:'Recently Changed' },
+    proposed: { cls:'badge-proposed', icon:'bi-file-earmark-text',label:'Proposed' },
+    repealed: { cls:'badge-repealed', icon:'bi-x-circle-fill',    label:'Repealed' },
+  };
+  const s = map[status] || { cls:'', icon:'bi-circle', label: status };
+  return `<span class="badge-status ${s.cls}"><i class="bi ${s.icon}"></i> ${s.label}</span>`;
+}
+
+function jurisdictionBadge(jur) {
+  return `<span class="badge-jurisdiction">${jur}</span>`;
+}
+
+function appliesToCompany(law) {
+  if (!law.min_employee_threshold) return true;
+  return law.min_employee_threshold <= COMPANY_SIZE;
+}
+
+// ── Render Law Card ────────────────────────────────────────────────────────
+function renderLawCard(law) {
+  const applies = appliesToCompany(law);
+  const notApplicableClass = applies ? '' : 'not-applicable';
+
+  let extraNotice = '';
+  if (!applies) {
+    extraNotice = `
+      <div class="not-applicable-notice">
+        <i class="bi bi-info-circle-fill" style="color:#94a3b8;margin-top:2px;flex-shrink:0"></i>
+        <span><strong>Note:</strong> This law applies to employers with ${law.min_employee_threshold.toLocaleString()}+ employees.
+        As a company with ~${COMPANY_SIZE} employees, this <em>likely does not apply to you</em>. Confirm with your employment counsel.</span>
+      </div>`;
+  }
+
+  let statusNotice = '';
+  if (law.status === 'proposed') {
+    const momentum = law.momentum_level || 'Moderate';
+    statusNotice = `
+      <div class="proposed-notice">
+        <strong>⚠️ Proposed — Not Yet Law.</strong> This bill is currently moving through the legislative process.
+        Momentum: <strong>${momentum}</strong>. Monitor closely but no compliance action required yet.
+      </div>`;
+  }
+  if (law.status === 'repealed') {
+    statusNotice = `
+      <div class="repeal-notice">
+        <strong>🔴 Repealed/Blocked.</strong> This law ${law.repeal_notes || 'was repealed or blocked by a court and is no longer in effect.'} Review whether any compliance changes made need to be reversed.
+      </div>`;
+  }
+
+  const complianceHtml = (law.compliance_actions && law.compliance_actions.length > 0)
+    ? `<div class="compliance-section">
+        <h4><i class="bi bi-clipboard-check"></i> Required Compliance Actions</h4>
+        <ol>${law.compliance_actions.map(a => `<li>${a}</li>`).join('')}</ol>
+      </div>`
+    : '';
+
+  return `
+  <div class="law-card ${notApplicableClass}" id="law-${law.id}">
+    <div class="law-card-header">
+      <h3>
+        ${law.source_url
+          ? `<a href="${law.source_url}" target="_blank" rel="noopener">${law.title}</a>`
+          : law.title}
+      </h3>
+      <div class="meta-row">
+        ${statusBadge(law.status)}
+        ${jurisdictionBadge(law.jurisdiction || 'Federal')}
+        ${deadlinePill(law.deadline || law.effective_date, law.status)}
+        ${!applies ? `<span class="badge-status" style="background:#f1f5f9;color:#94a3b8;border:1px solid #e2e8f0"><i class="bi bi-building"></i> May not apply (${law.min_employee_threshold.toLocaleString()}+ employees)</span>` : ''}
+      </div>
+    </div>
+    <div class="law-card-body">
+      ${statusNotice}
+      ${extraNotice}
+      <p class="summary-text">${law.summary}</p>
+      ${complianceHtml}
+    </div>
+    <div class="law-card-footer">
+      <span>Source: ${law.source || 'Unknown'} &nbsp;·&nbsp; Updated: ${formatDate(law.last_updated)}</span>
+      ${law.source_url
+        ? `<a href="${law.source_url}" target="_blank" rel="noopener" style="font-weight:600;color:var(--primary);font-size:0.8rem">Read full article <i class="bi bi-arrow-up-right"></i></a>`
+        : `<span style="color:#d1d5db;font-size:0.8rem">No source link available</span>`}
+    </div>
+  </div>`;
+}
+
+// ── Filter & Search ────────────────────────────────────────────────────────
+function filteredLaws(laws) {
+  return laws.filter(law => {
+    const matchesFilter = currentFilter === 'all' || law.status === currentFilter;
+    const q = searchQuery.toLowerCase();
+    const matchesSearch = !q ||
+      law.title.toLowerCase().includes(q) ||
+      law.summary.toLowerCase().includes(q) ||
+      (law.tags || []).some(t => t.toLowerCase().includes(q));
+    return matchesFilter && matchesSearch;
+  });
+}
+
+function filterBar(counts) {
+  const items = [
+    { key: 'all',      label: `All (${counts.all})` },
+    { key: 'upcoming', label: `Upcoming (${counts.upcoming || 0})` },
+    { key: 'recent',   label: `Recent Changes (${counts.recent || 0})` },
+    { key: 'proposed', label: `Proposed (${counts.proposed || 0})` },
+    { key: 'repealed', label: `Repealed (${counts.repealed || 0})` },
+  ];
+  return `
+  <div class="filter-bar" id="filter-bar">
+    <span class="label">Filter:</span>
+    ${items.map(i => `
+      <button class="filter-btn ${currentFilter === i.key ? 'active' : ''}"
+        onclick="setFilter('${i.key}')">${i.label}</button>`).join('')}
+    <input type="search" class="search-input" placeholder="Search laws…"
+      value="${searchQuery}" oninput="setSearch(this.value)" />
+  </div>`;
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  rerenderCards();
+}
+function setSearch(q) {
+  searchQuery = q;
+  rerenderCards();
+}
+function rerenderCards() {
+  const container = document.getElementById('cards-container');
+  if (!container) return;
+  const laws = filteredLaws(allLaws);
+  container.innerHTML = laws.length
+    ? laws.map(renderLawCard).join('')
+    : `<div class="empty-state"><i class="bi bi-search"></i>No laws match your current filters.</div>`;
+  // re-render filter bar to update counts
+  const fb = document.getElementById('filter-bar');
+  const counts = countByStatus(allLaws);
+  if (fb) fb.outerHTML = filterBar(counts);
+}
+
+function countByStatus(laws) {
+  const c = { all: laws.length, upcoming: 0, recent: 0, proposed: 0, repealed: 0 };
+  laws.forEach(l => { if (c[l.status] !== undefined) c[l.status]++; });
+  return c;
+}
+
+// ── Views ──────────────────────────────────────────────────────────────────
+async function fetchJson(path) {
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(`Failed to load ${path}`);
+  return r.json();
+}
+
+async function renderUpcoming() {
+  showLoading();
+  try {
+    // Fetch federal + all states
+    const [federal, ...states] = await Promise.all([
+      fetchJson(DATA_BASE + 'federal.json'),
+      ...Object.keys(STATE_MAP).map(k => fetchJson(DATA_BASE + 'states/' + k + '.json').catch(() => ({ laws: [] })))
+    ]);
+    const today = new Date();
+
+    // Merge and sort by deadline/effective_date ascending
+    const all = [
+      ...federal.laws.map(l => ({ ...l, jurisdiction: 'Federal' })),
+      ...states.flatMap((s, i) => (s.laws || []).map(l => ({
+        ...l,
+        jurisdiction: Object.values(STATE_MAP)[i]
+      })))
+    ].filter(l => {
+      const date = l.deadline || l.effective_date;
+      if (!date) return l.status === 'upcoming' || l.status === 'proposed';
+      const d = new Date(date);
+      // Show upcoming (not yet effective or within 180 days past)
+      return (d >= new Date(today - 180 * 86400000));
+    }).sort((a, b) => {
+      const da = new Date(a.deadline || a.effective_date || '9999');
+      const db = new Date(b.deadline || b.effective_date || '9999');
+      return da - db;
+    });
+
+    allLaws = all;
+    const counts = countByStatus(all);
+    const urgent  = all.filter(l => { const d = daysUntil(l.deadline || l.effective_date); return d !== null && d >= 0 && d <= 30; }).length;
+    const soon    = all.filter(l => { const d = daysUntil(l.deadline || l.effective_date); return d !== null && d > 30 && d <= 90; }).length;
+
+    const html = `
+      <div class="page-header">
+        <h1><i class="bi bi-clock-history" style="color:var(--upcoming)"></i> Upcoming Employment Law Changes</h1>
+        <p>All upcoming federal and state-level changes requiring your attention, sorted by deadline.</p>
+      </div>
+      ${filterBar(counts)}
+      <div class="content-area">
+        <div class="stats-row">
+          <div class="stat-card"><div class="stat-number" style="color:var(--repealed)">${urgent}</div><div class="stat-label">Due within 30 days</div></div>
+          <div class="stat-card"><div class="stat-number" style="color:var(--upcoming)">${soon}</div><div class="stat-label">Due within 90 days</div></div>
+          <div class="stat-card"><div class="stat-number" style="color:var(--proposed)">${counts.proposed}</div><div class="stat-label">Proposed (not yet law)</div></div>
+          <div class="stat-card"><div class="stat-number" style="color:#64748b">${counts.all}</div><div class="stat-label">Total tracked</div></div>
+        </div>
+        <div id="cards-container">
+          ${filteredLaws(all).map(renderLawCard).join('') || `<div class="empty-state"><i class="bi bi-check2-circle"></i>No upcoming changes to display.</div>`}
+        </div>
+      </div>`;
+
+    setView(html, federal.last_updated);
+  } catch (e) {
+    showError(e.message);
+  }
+}
+
+async function renderFederal() {
+  showLoading();
+  try {
+    const data = await fetchJson(DATA_BASE + 'federal.json');
+    allLaws = data.laws.map(l => ({ ...l, jurisdiction: 'Federal' }));
+    const counts = countByStatus(allLaws);
+    const html = `
+      <div class="page-header">
+        <h1><i class="bi bi-flag" style="color:var(--primary)"></i> Federal Employment Law Changes</h1>
+        <p>Recent and upcoming changes at the federal level. Non-union laws only.</p>
+      </div>
+      ${filterBar(counts)}
+      <div class="content-area">
+        <div id="cards-container">
+          ${filteredLaws(allLaws).map(renderLawCard).join('') || `<div class="empty-state"><i class="bi bi-check2-circle"></i>No federal changes to display.</div>`}
+        </div>
+      </div>`;
+    setView(html, data.last_updated);
+  } catch (e) {
+    showError(e.message);
+  }
+}
+
+async function renderState(slug) {
+  showLoading();
+  const stateName = STATE_MAP[slug] || slug;
+  try {
+    const data = await fetchJson(DATA_BASE + 'states/' + slug + '.json');
+    allLaws = (data.laws || []).map(l => ({ ...l, jurisdiction: stateName }));
+    const counts = countByStatus(allLaws);
+    const isPriority = ['california', 'new-york', 'georgia'].includes(slug);
+    const html = `
+      <div class="page-header">
+        <h1><i class="bi bi-geo-alt" style="color:var(--primary)"></i> ${stateName} ${isPriority ? '<span style="color:#f59e0b;font-size:1rem">★ Priority State</span>' : ''}</h1>
+        <p>State-level employment law changes for ${stateName}. Federal laws also apply — see the Federal page.</p>
+      </div>
+      ${filterBar(counts)}
+      <div class="content-area">
+        <div id="cards-container">
+          ${filteredLaws(allLaws).map(renderLawCard).join('') || `<div class="empty-state"><i class="bi bi-check2-circle"></i>No changes currently tracked for ${stateName}. Check back after the next daily update.</div>`}
+        </div>
+      </div>`;
+    setView(html, data.last_updated);
+  } catch (e) {
+    showError(e.message);
+  }
+}
+
+// ── Routing ────────────────────────────────────────────────────────────────
+function getView() {
+  const hash = window.location.hash.replace('#', '').replace(/^\//, '') || 'upcoming';
+  return hash;
+}
+
+async function route() {
+  currentFilter = 'all';
+  searchQuery   = '';
+  const view = getView();
+
+  // Update sidebar active state
+  document.querySelectorAll('.sidebar a').forEach(a => {
+    const av = a.getAttribute('data-view');
+    a.classList.toggle('active', av === view);
+  });
+
+  if (view === 'upcoming')           await renderUpcoming();
+  else if (view === 'federal')       await renderFederal();
+  else if (view.startsWith('state/')) await renderState(view.replace('state/', ''));
+  else                               await renderUpcoming();
+}
+
+function setView(html, lastUpdated) {
+  const container = document.getElementById('view-container');
+  const loading   = document.getElementById('loading');
+  container.innerHTML = html;
+  container.style.display = 'block';
+  loading.style.display = 'none';
+  if (lastUpdated) {
+    document.getElementById('nav-last-updated').textContent =
+      'Last updated: ' + formatDate(lastUpdated);
+  }
+}
+
+function showLoading() {
+  document.getElementById('loading').style.display = 'flex';
+  document.getElementById('view-container').style.display = 'none';
+}
+
+function showError(msg) {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('view-container').innerHTML = `
+    <div class="content-area">
+      <div class="alert alert-danger">
+        <strong>Could not load data.</strong> ${msg}
+        <br><small>Make sure the site is served from a web server (not opened directly as a file). See README for setup instructions.</small>
+      </div>
+    </div>`;
+  document.getElementById('view-container').style.display = 'block';
+}
+
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+}
+
+// ── Init ───────────────────────────────────────────────────────────────────
+window.addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>
