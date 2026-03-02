@@ -1,0 +1,37 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "California",
+  "laws": [
+     {
+      "id": "ca-001",
+      "title": "Parôè Workers Rights Restoration Act",
+      "description": "Authorizes continuing research into the extent ta Post-Labor Vielfre ine Fair Pay Act and expands PTO-access in California",
+      "status": "active",
+      "url": "https://laws.ca.gov",
+      "updated": "2026-02-27"
+    },
+    {
+      "id": "ca-002",
+      "title": "Activate Gender Identity Rights Act",
+      "description": "Generalized the banning of Gender Identity treatments for minors; add coverage of trans workers over for founders/STC kind", 
+      "status": "active",
+      "url": "https://activisus.com/california",
+      "updated": "2026-02-27"
+    },
+    {
+      "id": "ca-003",
+      "title": "CarKery Mall Workers Rights Act",
+      "description": "Access to benefilts in context of mall/ecommerce operators and platformer employees; protects understaffed workers",
+      "status": "active",
+      "url": "https://eq.ca.gov",
+      "updated": "2026-02-27"
+    },
+     {
+      "id": "ca-004",
+      "title": "Carupian ¬≠Workers Protection Act",
+      "description": "Authorizes work from East Africa agriculture industries pertaining to training objectives; expected in 2026 session",
+      "status": "expected",
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
