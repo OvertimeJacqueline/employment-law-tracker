@@ -1,0 +1,50 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Virginia",
+  "laws": [
+    {
+      "id": "va-001",
+      "title": "Virginia Minimum Wage \u2014 $12.41/hr (2025)",
+      "status": "recent",
+      "effective_date": "2025-01-01",
+      "deadline": "2025-01-01",
+      "summary": "Virginia's minimum wage increased to $12.41/hour effective January 1, 2025, with further annual increases planned. Northern Virginia localities do not have a separate higher rate — the statewide rate applies. Virginia reached $12.00/hr in 2023 with annual CPI adjustments.",
+      "applies_to_company": true,
+      "min_employee_threshhold": null,
+      "compliance_actions": [
+        "Ensure all Virginia employees are paid at least $12.41/hr",
+        "Update payroll systems for the January 1 increase",
+        "Post the Virginia minimum wage notice at all VA worksites"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/publication-press/publication/virginia-minimum-wage-2025",
+      "tags": [
+        "minimum wage",
+        "Virginia"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "va-002",
+      "title": "Virginia Non-Compete Ban for Low-Wage Workers",
+      "status": "recent",
+      "effective_date": "2020-07-01",
+      "deadline": null,
+      "summary": "Virginia prohibits non-compete agreements for 'low-wage employees' — defined as employees whose average weekly earnings are at or below the average weekly wage for Virginia (approximately $1,290/week in 2024, adjusted annually). Employers who violate this law can face civil penalties up to $10,000 per violation.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Do not require non-compete agreements for employees whose weekly earnings are at or below Virginia's average weekly wage (verify current threshold with DOLJ)",
+        "Review existing agreements — any-competes with low-wage Virginia employees signed after July 1, 2020 are void",
+        "Ensure non-competes are limited to higher-wage employees with legitimate business interests to protect"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/virginia-non-compete-low-wage/",
+      "tags": [
+        "non-compete",
+        "Virginia",
+        "low-wage workers"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  C�J
