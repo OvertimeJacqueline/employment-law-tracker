@@ -1,0 +1,52 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Tennessee",
+  "laws": [
+    {
+      "id": "tn-001",
+      "title": "Tennessee Minimum Wage \u2014 Federal Rate ($7.25/hr)",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Tennessee has no state minimum wage law \u2014 the federal $7.25/hour applies. Tennessee is a right-to-work state. Local governments cannot set their own minimum wages. Tennessee has limited state-specific employment obligations beyond federal law.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Comply with federal minimum wage ($7.25/hr)",
+        "Tennessee has no state paid sick leave or family leave \u2014 FMLA is the applicable law",
+        "Ensure all required federal employment posters are displayed at Tennessee worksites"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/tennessee-employment-law/",
+      "tags": [
+        "minimum wage",
+        "Tennessee",
+        "right-to-work"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "tn-002",
+      "title": "Tennessee Human Rights Act \u2014 Discrimination Protections",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "The Tennessee Human Rights Act (THRA) prohibits employment discrimination based on race, creed, color, religion, sex, age, and national origin. It applies to employers with 8+ employees \u2014 a lower threshold than Title VII (15+ employees). Unlike some states, Tennessee does not include sexual orientation or gender identity as protected classes under state law.",
+      "applies_to_company": true,
+      "min_employee_threshold": 8,
+      "compliance_actions": [
+        "Ensure anti-discrimination policies reference both Title VII and the THRA",
+        "Train managers on THRA-prohibited conduct",
+        "Note: Federal law (Bostock v. Clayton County) protects LGBTQ+ employees from discrimination under Title VII \u2014 ensure your policies reflect this even though THRA does not independently protect them"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/tennessee-human-rights-act",
+      "tags": [
+        "discrimination",
+        "Tennessee",
+        "civil rights"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
