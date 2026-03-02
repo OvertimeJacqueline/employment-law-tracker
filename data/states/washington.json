@@ -1,0 +1,77 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Washington",
+  "laws": [
+    {
+      "id": "wa-001",
+      "title": "Washington Minimum Wage \u2014 $16.66/hr (2025)",
+      "status": "recent",
+      "effective_date": "2025-01-01",
+      "deadline": "2025-01-01",
+      "summary": "Washington's minimum wage increased to $16.66/hour effective January 1, 2025. Seattle has a higher minimum ($20.76/hr for large employers). Washington also has a salary threshold for overtime exemptions: $1,101.80/week ($57,293.60/year) for 2025 — well above the federal threshhold.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Ensure all Washington employees are paid at least $16.66/hr",
+        "Seattle employees at large employers: verify compliance with Seattle's $20.76/hr minimum",
+        "For exempt employees: ensure salary is at least $1,101.80/week ($57,293.60/year)",
+        "Post the Washington minimum wage notice at all WA worksites"
+      ],
+      "source": "Seyfarth Shaw",
+      "source_url": "https://www.seyfarth.com/news-insights/washington-minimum-wage-2025.html",
+      "tags": [
+        "minimum wage",
+        "overtime",
+        "Washington"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "wa-002",
+      "title": "Washington Paid Family & Medical Leave \u2014 Employee and Employer Contributions",
+      "status": "recent",
+      "effective_date": "2020-01-01",
+      "deadline": null,
+      "summary": "Washington's PFML provides up to 12 weeks of paid family or medical leave (18 weeks for birth and bonding in some cases). Employers with 5+ employees in WA must pay an employer share of premiums. All employers must withhold the employee share. 2024 premium rate: 0.74% of wages. Benefits replace up to 90% of wages for lower-income employees.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Withhold the employee share of WA PFML premiums from all Washington employee wages",
+        "Employers with 50+ WA employees: also remit the employer share",
+        "Post the WA PFML required notices at Washington worksites",
+        "Update your leave policy to reflect how WA PFML coordinates with FMLA"
+      ],
+      "source": "Proskauer Rose",
+      "source_url": "https://www.proskauer.com/blog/washington-paid-family-medical-leave",
+      "tags": [
+        "paid family leave",
+        "Washington",
+        "PFML"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "wa-003",
+      "title": "Washington Pay Transparency — Salary Ranges in Job Postings",
+      "status": "recent",
+      "effective_date": "2023-01-01",
+      "deadline": "2023-01-01",
+      "summary": "Washington employers with 15+ employees must include the salary or hourly wage range in all job postings (internal and external). Employers must also disclose a general description of benefits. The pay range must be a good-faith estimate. Remote jobs that could be performed in Washington are covered.",
+      "applies_to_company": true,
+      "min_employee_threshold": 15,
+      "compliance_actions": [
+        "Include pay ranges in all Washington job postings",
+        "Include a benefits description (health, retirement, paid leave) in all WA job postings",
+        "Apply to remote roles that could be filled by Washington residents",
+        "Train recruiters on compliance requirements"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/washington-pay-transparency",
+      "tags": [
+        "pay transparency",
+        "Washington",
+        "salary"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  C�J
