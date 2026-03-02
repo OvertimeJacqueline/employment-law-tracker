@@ -1,0 +1,54 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Texas",
+  "laws": [
+    {
+      "id": "tx-001",
+      "title": "Texas Minimum Wage \u2014 Federal Rate ($7.25/hr)",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Texas has no state minimum wage higher than the federal $7.25/hour. Texas is a right-to-work state. Local governments are preempted from setting higher wages or additional employment mandates (see Austin and San Antonio preemption lawsuits). Texas has limited state-specific employment law obligations beyond federal law.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Comply with federal minimum wage ($7.25/hr)",
+        "Texas has no state paid leave mandate \u2014 voluntary programs are encouraged for recruitment",
+        "Ensure required federal posters are displayed at Texas worksites",
+        "Texas Commission on Human Rights Act applies to employers with 15+ employees \u2014 mirrors Title VII"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/texas-employment-law-overview/",
+      "tags": [
+        "minimum wage",
+        "Texas",
+        "right-to-work"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "tx-002",
+      "title": "Texas Non-Compete Agreements \u2014 Enforceability Requirements",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Texas allows non-compete agreements if they are ancillary to an otherwise enforceable agreement, supported by consideration (typically access to trade secrets or confidential information), and reasonable in scope, geography, and duration. Courts may reform \u2014 but not void \u2014 overly broad agreements. The FTC non-compete rule that would have banned most non-competes was blocked by a Texas federal court.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Ensure Texas non-competes are tied to a legitimate business interest (trade secrets, specialized training, etc.)",
+        "Include non-competes in offer letters or agreements where confidential information will be shared",
+        "Consult employment counsel on duration and scope \u2014 courts tend to reform rather than void overbroad agreements",
+        "Note: The blocked FTC rule does not change Texas state law on non-competes"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/texas-non-compete-enforceability",
+      "tags": [
+        "non-compete",
+        "Texas",
+        "restrictive covenants"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
