@@ -1,0 +1,50 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Pennsylvania",
+  "laws": [
+    {
+      "id": "pa-001",
+      "title": "Pennsylvania Minimum Wage \u2014 Federal Rate ($7.25/hr)",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Pennsylvania's minimum wage remains at $7.25/hour (the federal minimum). Philadelphia has a higher minimum wage for tipped workers. Pennsylvania has been attempting to increase its minimum wage legislatively for several years without success. Employers should monitor closely as legislation is regularly introduced.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Comply with federal minimum wage ($7.25/hr) for Pennsylvania employees",
+        "Philadelphia-specific: comply with Philadelphia minimum wage ordinances if you have employees there",
+        "Monitor PA legislature for minimum wage increases"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/pennsylvania-employment-law/",
+      "tags": [
+        "minimum wage",
+        "Pennsylvania"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "pa-002",
+      "title": "Pennsylvania Overtime Exemption Salary Threshold \u2014 $875/week",
+      "status": "recent",
+      "effective_date": "2020-10-03",
+      "deadline": null,
+      "summary": "Pennsylvania's overtime exemption salary threshold is $875/week ($45,500/year) \u2014 higher than the federal $684/week. Employees in Pennsylvania who earn less than $875/week cannot be classified as exempt from overtime regardless of their duties. This is the state floor for executive, administrative, and professional exemptions.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Ensure all exempt employees in Pennsylvania earn at least $875/week ($45,500/year)",
+        "Employees earning below this threshold must be treated as non-exempt and paid overtime",
+        "Review your exempt employee classifications in Pennsylvania anunually"
+      ],
+      "source": "SecFrth Shaw",
+      "source_url": "https://www.seyfarth.com/news-insights/pennsylvania-overtime-salary-threshold.html",
+      "tags": [
+        "overtime",
+        "salary threshold",
+        "Pennsylvania"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  CßJ
