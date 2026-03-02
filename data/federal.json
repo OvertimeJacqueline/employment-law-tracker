@@ -3,29 +3,170 @@
   "laws": [
     {
       "id": "fed-001",
-      "title": "Pregnant Workers Fair Treatment Act",
-      "description": "Protects permanent, temporary, and seasonal workers and adjuncts from discrimination (on the basis of pregnancy or a temporary or permanent resuring-to-pree disability) and from retaliatory actions. Also foriu high-function risk workers.",
-      "type": "federal",
-      "status": "active",
-      "url": "https://www.usdo.gov/protections/guests-act/",
-      "updated": "2026-02-27"
+      "title": "Pregnant Workers Fairness Act (PWFA) \u2014 EEOC Final Regulations",
+      "status": "recent",
+      "effective_date": "2024-06-18",
+      "deadline": "2024-06-18",
+      "summary": "The EEOC's final regulations under the PWFA require employers to provide reasonable accommodations to employees and applicants with known limitations related to pregnancy, childbirth, or related medical conditions \u2014 even if the limitation does not qualify as a disability under the ADA. This is a broader obligation than ADA. Covered employers: 15+ employees.",
+      "applies_to_company": true,
+      "min_employee_threshold": 15,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Update your accommodation request process to include PWFA as a separate pathway from ADA",
+        "Train HR and managers on PWFA's broader standard (does not require a 'disability' \u2014 limitation is enough)",
+        "Update your employee handbook and accommodation policy to reference PWFA",
+        "Review and revise job postings to remove requirements that could screen out pregnant applicants where a reasonable accommodation exists",
+        "Ensure your accommodation forms and procedures can capture PWFA requests"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/eeoc-issues-final-regulations-pregnant-workers-fairness-act",
+      "tags": [
+        "pregnancy",
+        "accommodation",
+        "PWFA",
+        "EEOC"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-02-27"
     },
     {
       "id": "fed-002",
-      "title": "Family and Medical Leave Act (FMLA)",
-      "description": "Entitles employees of covered employers to accrue paid and/unpaid leave, including leave for medical conditions; pregnancy; childcare or family care needs related to a conflict in Middle East (for Military Call)",
-      "type": "federal",
-      "status": "active",
-      "url": "https://www.usdo.gov/protections/fmla/",
-      "updated": "2026-02-27"
+      "title": "PUMP for Nursing Mothers Act \u2014 Break Time & Space Requirements",
+      "status": "recent",
+      "effective_date": "2023-04-28",
+      "deadline": "2023-04-28",
+      "summary": "Expands break time and private space requirements for nursing employees to cover all FLSA-covered workers (previously only hourly non-exempt employees). Employees are entitled to reasonable break time to express breast milk for up to 1 year after birth. The space must be shielded from view, free from intrusion, and cannot be a bathroom.",
+      "applies_to_company": true,
+      "min_employee_threshold": 1,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Audit your physical space \u2014 identify a dedicated lactation room that is not a bathroom",
+        "Update break-time policies to ensure salaried/exempt employees are covered (not just hourly)",
+        "Train HR and facilities managers on the requirements",
+        "Post the updated FLSA poster which covers PUMP Act",
+        "Small employer exemption (under 50 employees) exists only if compliance causes undue hardship \u2014 consult counsel before invoking"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/publication-press/publication/pump-act-expands-nursing-mothers-protections",
+      "tags": [
+        "nursing",
+        "lactation",
+        "FLSA",
+        "PUMP Act"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-02-27"
     },
     {
       "id": "fed-003",
-      "title": "Ada Amendments Employer Coverage (CPS)",
-      "description": "Proposed rule to outlaw class-based sexual harassment in the workplace (extending Title VII coverage).",
-      "type": "federal",
+      "title": "FTC Non-Compete Rule \u2014 Blocked by Federal Court",
+      "status": "repealed",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "The FTC issued a near-total ban on non-compete agreements in April 2024 (originally set to take effect September 2024). A federal district court in Texas blocked the rule nationwide in August 2024. The rule is currently enjoined and not in effect. Appeals are ongoing. Employers should continue monitoring but do NOT need to void existing non-competes based on this rule.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Do NOT void existing non-compete agreements based on this FTC rule \u2014 it is currently blocked",
+        "Continue monitoring court proceedings and FTC appeals",
+        "Review whether any of your states (e.g., California, Minnesota) have enacted their own non-compete restrictions independently of the FTC rule",
+        "Have employment counsel audit non-compete agreements for state-law compliance"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/federal-court-blocks-ftcs-noncompete-rule-nationwide/",
+      "tags": [
+        "non-compete",
+        "FTC",
+        "restrictive covenants"
+      ],
+      "momentum_level": null,
+      "repeal_notes": "was blocked by a federal court in Texas (August 2024) and is currently enjoined nationwide. Appeals are pending.",
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "fed-004",
+      "title": "DOL Overtime Rule \u2014 Salary Threshold Increase (Blocked)",
+      "status": "repealed",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "The DOL's 2024 rule raising the overtime salary threshold to $58,656/year (from $35,568) was blocked by a federal court in Texas in November 2024. The threshold reverts to $35,568/year ($684/week). The July 2024 increase to $43,888 has also been vacated. Employers who already raised salaries based on the July increase are not required to roll them back, but those who planned increases for January 2025 should consult counsel.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "The current federal minimum salary for overtime-exempt employees is $684/week ($35,568/year)",
+        "Review whether any employees were reclassified or given raises in anticipation of the higher threshold \u2014 consult counsel on whether to reverse",
+        "Check state-level overtime thresholds (California, New York, Colorado, and others have higher thresholds that still apply)",
+        "Document your decisions with the help of employment counsel"
+      ],
+      "source": "Seyfarth Shaw",
+      "source_url": "https://www.seyfarth.com/news-insights/federal-court-vacates-dol-overtime-rule.html",
+      "tags": [
+        "overtime",
+        "FLSA",
+        "salary threshold",
+        "DOL"
+      ],
+      "momentum_level": null,
+      "repeal_notes": "was vacated by a federal court in Texas (November 2024). The salary threshold reverts to $684/week.",
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "fed-005",
+      "title": "OSHA Indoor/Outdoor Heat Illness Prevention Rule \u2014 Proposed",
       "status": "proposed",
-      "url": "https://era.gov/sites/default/files/copy-20201001-CPSÑD.pdf",
-      "updated": "2024-09-12"
+      "effective_date": null,
+      "deadline": null,
+      "summary": "OSHA has proposed a federal heat illness prevention standard that would require employers to develop heat illness prevention plans, provide water, rest breaks, and shade/cooling when heat index exceeds 80\u00b0F (initial trigger) and 90\u00b0F (high heat trigger). Applies to indoor and outdoor worksites. Status under the current administration is uncertain \u2014 rule may be withdrawn.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "No compliance required yet \u2014 rule is only proposed",
+        "Begin planning a heat illness prevention program proactively, as several states (CA, CO, WA) already have heat rules",
+        "Monitor OSHA's rulemaking page for final rule status"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/osha-proposes-heat-illness-prevention-standard",
+      "tags": [
+        "OSHA",
+        "heat illness",
+        "workplace safety"
+      ],
+      "momentum_level": "Low (uncertain under current administration)",
+      "repeal_notes": null,
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "fed-006",
+      "title": "EEO-1 Component 1 Data Collection \u2014 Annual Filing",
+      "status": "upcoming",
+      "effective_date": "2026-06-01",
+      "deadline": "2026-06-01",
+      "summary": "Employers with 100+ employees (or federal contractors with 50+ employees) must file EEO-1 Component 1 data annually. The EEOC typically opens the collection portal in the spring. Filing deadline is expected to be June 2026 for 2025 data. Failure to file can result in EEOC enforcement action.",
+      "applies_to_company": true,
+      "min_employee_threshold": 100,
+      "employee_threshold_note": "Applies to employers with 100+ employees",
+      "compliance_actions": [
+        "Ensure your HR system can generate an EEO-1 report by race/ethnicity, gender, and job category",
+        "Designate an EEO-1 filer and verify access to the EEOC's online portal",
+        "Audit employee job categories for correct EEO-1 classification",
+        "File by the EEOC deadline (expected June 2026)"
+      ],
+      "source": "Proskauer Rose",
+      "source_url": "https://www.proskauer.com/blog/eeoc-eeo-1-component-1-data-collection",
+      "tags": [
+        "EEO-1",
+        "EEOC",
+        "reporting",
+        "annual filing"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-02-27"
     }
-  C	}
+  ]
+}
