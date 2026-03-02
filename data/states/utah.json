@@ -1,0 +1,51 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Utah",
+  "laws": [
+    {
+      "id": "ut-001",
+      "title": "Utah Minimum Wage \u2014 Federal Rate ($7.25/hr)",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Utah's minimum wage is $7.25/hour (the federal minimum). Utah is a right-to-work state and has limited state-specific employment law requirements beyond federal obligations.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Comply with federal minimum wage ($7.25/hr)",
+        "Utah has no state-mandated paid leave programs",
+        "Ensure required federal employment posters are displayed at Utah worksites"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/utah-employment-law/",
+      "tags": [
+        "minimum wage",
+        "Utah"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "ut-002",
+      "title": "Utah Non-Compete Agreements \u2014 1-Year Maximum Duration",
+      "status": "recent",
+      "effective_date": "2016-05-10",
+      "deadline": null,
+      "summary": "Utah limits post-employment non-compete agreements to a maximum of 1 year in duration. Non-competes that exceed 1 year are void. The law applies to post-employment restrictions; non-solicitation and non-disclosure agreements are not affected by this limit.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Ensure Utah non-compete agreements do not exceed 1 year in duration",
+        "Review any Utah non-competes that currently extend beyond 1 year \u2014 they may be void",
+        "Non-solicitation and NDA provisions are not subject to the 1-year cap"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/utah-non-compete-one-year-limit",
+      "tags": [
+        "non-compete",
+        "Utah",
+        "restrictive covenants"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
