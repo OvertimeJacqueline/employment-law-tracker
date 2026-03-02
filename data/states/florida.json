@@ -1,0 +1,46 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Florida",
+  "laws": [
+    {
+      "id": "fl-001",
+      "title": "Florida Minimum Wage \u2014 $14.00/hr (September 2025)",
+      "status": "upcoming",
+      "effective_date": "2025-09-30",
+      "deadline": "2025-09-30",
+      "summary": "Florida's minimum wage increases to $14.00/hour on September 30, 2025 (it increases each September 30 per Amendment 2). It will reach $15.00/hour by September 30, 2026. Tipped employees: $10.98/hr minimum (with tip credit). Florida does not have a state overtime law \u2014 federal FLSA applies.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Plan for $14.00/hr minimum wage for all Florida employees effective September 30, 2025",
+        "Update tipped employee pay to at least $10.98/hr on September 30, 2025",
+        "Begin planning for $15.00/hr by September 30, 2026",
+        "Post the updated Florida minimum wage notice"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/florida-minimum-wage-2025/",
+      "tags": [
+        "minimum wage",
+        "Florida"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "fl-002",
+      "title": "Florida E-Verify Requirement for Employers",
+      "status": "recent",
+      "effective_date": "2023-07-01",
+      "deadline": null,
+      "summary": "Florida law (SB 1718) requires private employers with 25+ employees to use E-Verify for all new hires effective July 1, 2023. Employers must verify new employees within 3 business days of hire. Non-compliance can result in fines and loss of state licenses. Employers should retain I-9 forms AND E-Verify case numbers.",
+      "applies_to_company": true,
+      "min_employee_threshold": 25,
+      "compliance_actions": [
+        "Enroll in E-Verify at e-verify.uscis.gov if you have 25+ Florida employees",
+        "Run E-Verify for all new hires in Florida within 3 business days of their start date",
+        "Retain E-Verify case numbers with your I ¹ €Rd TT XTeGoogle Sheet for state changes",
+       "null",
+        "2026-02-27"
+      ]
+    }
+  ]
+}
