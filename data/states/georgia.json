@@ -1,0 +1,79 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Georgia",
+  "laws": [
+    {
+      "id": "ga-001",
+      "title": "Georgia Restrictive Covenants Act \u2014 Non-Compete Enforceability",
+      "status": "recent",
+      "effective_date": "2011-11-03",
+      "deadline": null,
+      "summary": "Georgia's Restrictive Covenants Act (RCA) allows courts to modify rather than void overly broad non-compete agreements (a doctrine called 'blue penciling'). Non-competes must be reasonable in duration (typically up to 2 years), geographic scope, and subject matter. Note: The blocked FTC non-compete rule does not override this \u2014 Georgia state law still permits non-competes for qualifying employees.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Have employment counsel review all Georgia employee non-compete agreements for compliance with the RCA",
+        "Ensure non-competes are tied to a legitimate business interest (trade secrets, confidential info, customer relationships)",
+        "Avoid overly broad agreements \u2014 courts will modify them, which may not result in the protection you intended",
+        "Consider alternatives (NDAs, non-solicitation agreements) where non-competes may be difficult to enforce"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/georgia-restrictive-covenants",
+      "tags": [
+        "non-compete",
+        "restrictive covenants",
+        "Georgia"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "ga-002",
+      "title": "Georgia Preemption of Local Employment Ordinances",
+      "status": "recent",
+      "effective_date": "2022-07-01",
+      "deadline": null,
+      "summary": "Georgia law preempts local governments from enacting employment regulations that differ from state law. Cities like Atlanta cannot independently raise the minimum wage, mandate paid sick leave, or create additional employee protections beyond state and federal law. Georgia's minimum wage is $7.25/hr (federal minimum applies). This means employers in Georgia have less state-law complexity \u2014 but federal law still fully applies.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Comply with federal employment law \u2014 Georgia adds few additional obligations",
+        "Note: Georgia has no state-mandated paid sick leave or paid family leave \u2014 federal FMLA is the floor",
+        "Review your benefit offerings \u2014 voluntary paid leave programs can help with recruitment in the Georgia market",
+        "Ensure all federal posting requirements are met at Georgia locations"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights/georgia-employment-law-overview/",
+      "tags": [
+        "preemption",
+        "minimum wage",
+        "Georgia",
+        "local law"
+      ],
+      "last_updated": "2026-02-27"
+    },
+    {
+      "id": "ga-003",
+      "title": "Georgia Drug-Free Workplace \u2014 Testing & Premium Discount",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Georgia employers who establish qualifying drug-free workplace programs are eligible for a 7.5% discount on workers' compensation insurance premiums. The program requires a written drug-free workplace policy, employee notice, and pre-employment, reasonable suspicion, post-accident, and random testing. Employees testing positive must be offered an Employee Assistance Program (EAP) referral.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Evaluate whether a Georgia drug-free workplace program would qualify for the workers' comp discount",
+        "Ensure your drug testing policy meets Georgia's specific requirements (written policy, employee notice, EAP referral)",
+        "Note: Georgia has not legalized recreational marijuana \u2014 cannabis testing policies remain enforceable",
+        "Review pre-employment and reasonable suspicion testing procedures with counsel"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/publication-press/publication/georgia-drug-free-workplace",
+      "tags": [
+        "drug testing",
+        "Georgia",
+        "workers compensation"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
