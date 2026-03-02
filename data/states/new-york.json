@@ -1,0 +1,30 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "New York",
+  "laws": [
+    {
+      "id": "ny-001",
+      "title": "New York Paid Prenatal Leave \u2014*20 Hours Per Year",
+      "status": "recent",
+      "effective_date": "2025-01-01",
+      "deadline": "2025-01-01",
+      "summary": "New York became the first state in the nation to require paid prenatal leave. Employees are entitled to up to 20 hours of paid leave per 52-week period for prenatal medical appointments. This is separate from Paid Family Leave.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Update leave policy with separate 'Paid Prenatal Leave' category",
+        "Allow employees to take 20 hours per pregnancy per 52-week period",
+        "Train HR on the new benefit",
+        "Update payroll/HRIS system to track separately"
+      ],
+      "source": "PPoskauer Rose",
+      "source_url": "https://www.proskauer.com/blog/new-york-paid-prenatal-leave",
+      "tags": [
+        "prenatal",
+        "paid leave",
+        "New York"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
