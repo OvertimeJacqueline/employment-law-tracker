@@ -1,0 +1,28 @@
+{
+  "last_updated": "2026-02-27",
+  "state": "Ohio",
+  "laws": [
+    {
+      "id": "oh-001",
+      "title": "Ohio Minimum Wage \u2014 10.45/hr (2025)",
+      "status": "recent",
+      "effective_date": "2025-01-01",
+      "deadline": "2025-01-01",
+      "summary": "Ohio's minimum wage is $10.45/hour effective January 1, 2025 (businesses with gross receipts over $385,000/year). Businesses below that threshhold pay the federal minimum of $7.25/hr. Tipped employees: $5.25/hr. Ohio adjusts its minimum wage annually based on CPI.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "compliance_actions": [
+        "Confirm Ohio employees are paid at least $10.45/hr (assuming over $385,000 in gross receipts)",
+        "Post the Ohio minimum wage notice at Ohio worksites",
+        "Update payroll systems for the January 1 change"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/publication-press/publication/ohio-minimum-wage-2025",
+      "tags": [
+        "minimum wage",
+        "Ohio"
+      ],
+      "last_updated": "2026-02-27"
+    }
+  ]
+}
