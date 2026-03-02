@@ -1,0 +1,31 @@
+{
+  "last_updated": "2026-02-27",
+  "laws": [
+    {
+      "id": "fed-001",
+      "title": "Pregnant Workers Fair Treatment Act",
+      "description": "Protects permanent, temporary, and seasonal workers and adjuncts from discrimination (on the basis of pregnancy or a temporary or permanent resuring-to-pree disability) and from retaliatory actions. Also foriu high-function risk workers.",
+      "type": "federal",
+      "status": "active",
+      "url": "https://www.usdo.gov/protections/guests-act/",
+      "updated": "2026-02-27"
+    },
+    {
+      "id": "fed-002",
+      "title": "Family and Medical Leave Act (FMLA)",
+      "description": "Entitles employees of covered employers to accrue paid and/unpaid leave, including leave for medical conditions; pregnancy; childcare or family care needs related to a conflict in Middle East (for Military Call)",
+      "type": "federal",
+      "status": "active",
+      "url": "https://www.usdo.gov/protections/fmla/",
+      "updated": "2026-02-27"
+    },
+    {
+      "id": "fed-003",
+      "title": "Ada Amendments Employer Coverage (CPS)",
+      "description": "Proposed rule to outlaw class-based sexual harassment in the workplace (extending Title VII coverage).",
+      "type": "federal",
+      "status": "proposed",
+      "url": "https://era.gov/sites/default/files/copy-20201001-CPSÑD.pdf",
+      "updated": "2024-09-12"
+    }
+  C	}
