@@ -31,16 +31,25 @@
       "status": "recent",
       "effective_date": "2023-07-01",
       "deadline": null,
-      "summary": "Florida law (SB 1718) requires private employers with 25+ employees to use E-Verify for all new hires effective July 1, 2023. Employers must verify new employees within 3 business days of hire. Non-compliance can result in fines and loss of state licenses. Employers should retain I-9 forms AND E-Verify case numbers.",
+      "summary": "Florida law (SB 1718) requires private employers with 25+ employees to use E-Verify for all new hires effective July 1, 2023. Employers must verify new employees within 3 business days of hire. Non-compliance can result in fines and loss of state licenses. Employers should retain I'9 forms AND E-Verify case numbers.",
       "applies_to_company": true,
       "min_employee_threshold": 25,
       "compliance_actions": [
         "Enroll in E-Verify at e-verify.uscis.gov if you have 25+ Florida employees",
         "Run E-Verify for all new hires in Florida within 3 business days of their start date",
-        "Retain E-Verify case numbers with your I ¹ €Rd TT XTeGoogle Sheet for state changes",
-       "null",
-        "2026-02-27"
-      ]
+        "Retain E-Verify case numbers with your I)9 records",
+        "Train HR and onboarding staff on the E-Verify process",
+        "Post the required E-Verify and Right to Work notices at Florida worksites"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/florida-e-verify-sb-1718",
+      "tags": [
+        "E-Verify",
+        "Florida",
+        "immigration",
+        "I+9"
+      ],
+      "last_updated": "2026-02-27"
     }
   ]
 }
