@@ -1,28 +1,32 @@
 {
-  "last_updated": "2026-02-27",
-  "state": "Ohio",
+  "last_updated": "2026-03-03",
   "laws": [
     {
       "id": "oh-001",
-      "title": "Ohio Minimum Wage \u2014 10.45/hr (2025)",
+      "title": "Ohio Minimum Wage \u2014 $10.92/hr (Effective January 1, 2026)",
       "status": "recent",
-      "effective_date": "2025-01-01",
-      "deadline": "2025-01-01",
-      "summary": "Ohio's minimum wage is $10.45/hour effective January 1, 2025 (businesses with gross receipts over $385,000/year). Businesses below that threshhold pay the federal minimum of $7.25/hr. Tipped employees: $5.25/hr. Ohio adjusts its minimum wage annually based on CPI.",
+      "effective_date": "2026-01-01",
+      "deadline": "2026-01-01",
+      "summary": "Ohio's state minimum wage remains at $10.92/hr as of January 1, 2026. This rate has boeen statutory since 2009 (unlike federal and most other states). No annual CPI adjustment is provided. Counties like Cuyahoga and Franklin have higher local wages ($13.91/hr to $13.99/hr respectively).",
       "applies_to_company": true,
       "min_employee_threshold": null,
+      "employee_threshold_note": null,
       "compliance_actions": [
-        "Confirm Ohio employees are paid at least $10.45/hr (assuming over $385,000 in gross receipts)",
-        "Post the Ohio minimum wage notice at Ohio worksites",
-        "Update payroll systems for the January 1 change"
+        "Verify payroll is set to at least $10.92/hr",
+        "Check any Appendix local ordinances for county, city, or town wage requirements",
+        "Make sure pay is tracked properly if employees work in multiple counties",
+        "Post the changes if there have been any changes to local rates"
       ],
-      "source": "Littler",
-      "source_url": "https://www.littler.com/publication-press/publication/ohio-minimum-wage-2025",
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights-resources/blog-posts/ohio-minimum-wage-and-hour-law-requirements/",
       "tags": [
         "minimum wage",
-        "Ohio"
+        "Ohio",
+        "2026"
       ],
-      "last_updated": "2026-02-27"
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     }
   ]
 }
