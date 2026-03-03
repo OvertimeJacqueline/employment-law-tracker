@@ -1,18 +1,2 @@
 {
-  "last_updated": "2026-03-03",
-  "laws": [
-    {
-      "id": "ut-001",
-      "title": "Utah Minimum Wage \u2014 $10.30/hr (Effective January 1, 2026)",
-      "status": "recent",
-      "effective_date": "2026-01-01",
-      "deadline": "2026-01-01",
-      "summary": "UT R_in wage = $10.30/hr",
-      "applies_to_company": true,
-      "compliance_actions": ["Update payroll"],
-      "source": "Ogletree",
-      "tags": ["minimum wage", "UT"],
-      "last_updated": "2026-03-03"
-    }
-  ]
-}
+  "last_updated": "2026-03-03", "laws": [{"id": "ut-001", "title": "Utah Minimum Wage", "status": "recent", "last_updated": "2026-03-03"}]}
