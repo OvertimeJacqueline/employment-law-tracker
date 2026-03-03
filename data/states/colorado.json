@@ -1,17 +1,62 @@
 {
-  "last_updated": "2026-02-27",
-  "rules": [
-     {
+  "last_updated": "2026-03-03",
+  "laws": [
+    {
       "id": "co-001",
-      "title": "Colorado Fair Pay Act",
-      "status": "active",
-      "url": "https://gxfsm.dowst.go/u/FactsAWacessuted": "2026-02-27"
+      "title": "Colorado Minimum Wage \u2014 $15.16/hr (Effective January 1, 2026)",
+      "status": "recent",
+      "effective_date": "2026-01-01",
+      "deadline": "2026-01-01",
+      "summary": "Colorado's state minimum wage increased to $15.16/hr on January 1, 2026, up from $14.81/hr in 2025. The increase is CPI-indexed under Colorado's COMPS Order (Colorado Overtime and Minimum Pay Standards). Denver's local minimum wage is higher at $18.81/hr for 2026. Exempt salary thresholds also increased \u2014 ensure salaried exempt employees meet the new threshold under COMPS.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Update payroll to $15.16/hr state minimum (or $18.81/hr if employees work in Denver)",
+        "Confirm exempt salary thresholds are met under the updated COMPS Order",
+        "Post the updated Colorado COMPS poster in your workplace",
+        "Update any written offer letters or employment agreements referencing prior rates"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights-resources/blog-posts/colorado-implements-changes-to-wage-and-hour-rules-for-2026/",
+      "tags": [
+        "minimum wage",
+        "Colorado",
+        "COMPS",
+        "2026"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     },
     {
       "id": "co-002",
-      "title": "Colorado Wage Gap Act",
-      "status": "active",
-      "url": "https://dcd.state.co.us",
-      "updated": "2026-02-27"
+      "title": "Colorado AI Act (HB 24-1468) \u2014 High-Risk AI in Employment (Effective February 2026)",
+      "status": "upcoming",
+      "effective_date": "2026-02-01",
+      "deadline": "2026-02-01",
+      "summary": "Colorado's SB 24-205 (AI Act) takes effect February 1, 2026 and applies to developers and deployers of 'high-risk' AI systems \u2014 including those used in employment decisions (hiring, firing, compensation, promotion). Employers must use reasonable care to avoid algorithmic discrimination, perform impact assessments, and provide notice and opportunity to appeal adverse decisions made by AI.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Identify all AI/algorithmic tools used in employment decisions (hiring, firing, promotion, pay)",
+        "Conduct impact assessments for any 'high-risk' AI system before February 2026",
+        "Implement notice procedures \u2014 employees must be informed when AI makes high-stakes decisions",
+        "Establish an appeals process for adverse AI-driven employment decisions",
+        "Work with counsel on compliance as CDLE guidance is expected"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights-resources/blog-posts/colorado-ai-act-employment-implications/",
+      "tags": [
+        "AI",
+        "Colorado",
+        "HB 1468",
+        "algorithmic discrimination"
+      ],
+      "momentum_level": "High",
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     }
-  C	}
+  ]
+}
