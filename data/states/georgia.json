@@ -3,8 +3,86 @@
   "laws": [
     {
       "id": "ga-001",
-      "title": "Georgia Restrictive Covenants Act",
+      "title": "Georgia Restrictive Covenants Act \u2014 Non-Compete Enforceability",
       "status": "recent",
-      "effective_date": "2011-05-11", "deadline": null, "summary": "Georgia's Restrictive Covenants Act", "applies_to_company": true, "last_updated": "2026-03-03" }
+      "effective_date": "2011-05-11",
+      "deadline": null,
+      "summary": "Georgia's Restrictive Covenants Act (O.C.G.A. \u00a7 13-8-50 et seq.) provides one of the most employer-friendly non-compete frameworks in the country. Covenants are enforceable if reasonable in time (up to 2 years), territory, and scope. Courts may blue-pencil overbroad restrictions. Georgia law applies to agreements signed after May 11, 2011. Non-solicitation and confidentiality agreements are separately enforceable.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Review all non-compete, non-solicitation, and NDA templates for Georgia-specific compliance",
+        "Ensure covenants specify a clear time limit (\u22642 years), defined territory, and scope",
+        "Include a choice-of-Georgia-law clause to maximize enforceability",
+        "Be aware that federal FTC non-compete rule is currently blocked \u2014 rely on Georgia law"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/georgia-restrictive-covenants-act-guide",
+      "tags": [
+        "non-compete",
+        "Georgia",
+        "restrictive covenants"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
+    },
+    {
+      "id": "ga-002",
+      "title": "Georgia Preemption of Local Employment Ordinances",
+      "status": "recent",
+      "effective_date": "2004-01-01",
+      "deadline": null,
+      "summary": "Georgia state law preempts local governments from enacting minimum wage, paid leave, or other employment benefit mandates that exceed state law. This means unlike California or New York, Georgia employers face a single statewide set of rules \u2014 there are no Atlanta-specific wage or leave laws to track separately. Georgia follows federal minimum wage ($7.25/hr) since the state has not enacted a higher rate.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Georgia follows federal minimum wage \u2014 no state or local premium applies",
+        "No Georgia-specific paid sick leave requirement \u2014 federal FMLA applies",
+        "Confirm multi-state employees' home state for leave and wage purposes",
+        "Monitor Georgia legislature for any future changes to this preemption"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights-resources/blog-posts/georgia-employment-law-update/",
+      "tags": [
+        "preemption",
+        "Georgia",
+        "minimum wage",
+        "local ordinances"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
+    },
+    {
+      "id": "ga-003",
+      "title": "Georgia Drug-Free Workplace \u2014 Workers' Comp Premium Discount",
+      "status": "recent",
+      "effective_date": "2000-01-01",
+      "deadline": null,
+      "summary": "Employers certified as a Georgia Drug-Free Workplace receive a 7.5% workers' compensation premium discount. Certification requires a written policy, supervisor training, employee education, access to EAP services, and drug/alcohol testing programs. Testing must follow specific protocols \u2014 both pre-employment and post-accident testing are recommended.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Confirm your drug-free workplace policy is current and distributed to all employees",
+        "Ensure supervisors receive required annual training on drug/alcohol impairment",
+        "Maintain testing program covering pre-employment, reasonable suspicion, and post-accident",
+        "Apply for and maintain Georgia Drug-Free Workplace certification for the workers' comp discount"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/publication-press/publication/georgia-drug-free-workplace-program",
+      "tags": [
+        "drug testing",
+        "Georgia",
+        "workers comp",
+        "drug-free workplace"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
+    }
   ]
 }
