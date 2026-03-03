@@ -1,17 +1,59 @@
 {
-  "last_updated": "2026-02-27",
-  "rules": [
-     {
+  "last_updated": "2026-03-03",
+  "laws": [
+    {
       "id": "az-001",
-      "title": "Arizona Fair Pay Act",
-      "status": "active",
-      "url": "https://la{.az.gov/articles/c70400",
-      "updated": "2026-02-27"
+      "title": "Arizona Minimum Wage \u2014 $15.15/hr (Effective January 1, 2026)",
+      "status": "recent",
+      "effective_date": "2026-01-01",
+      "deadline": "2026-01-01",
+      "summary": "Arizona's minimum wage rose to $15.15/hr on January 1, 2026, indexed to CPI. Note local rates are higher: Flagstaff is $18.35/hr and Tucson is $15.45/hr. All Arizona employers must pay the higher of the state rate or applicable local rate. Tipped employees must receive at least $12.15/hr plus tips, with the employer able to apply a $3.00 tip credit.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Update payroll to reflect $15.15/hr effective January 1, 2026",
+        "If you have employees in Flagstaff, use $18.35/hr; Tucson, use $15.45/hr",
+        "Confirm tipped employee pay (minimum $12.15/hr plus tips)",
+        "Post updated Arizona Minimum Wage Notice in all workplaces"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights-resources/blog-posts/2026-state-and-major-locality-minimum-wage-updates/",
+      "tags": [
+        "minimum wage",
+        "Arizona",
+        "2026"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     },
     {
       "id": "az-002",
-      "title": "Adult Care †¸‰ätatus": "active",
-      "url": "https://hss.az.gov/divisions/perisni^outed": "2026-02-27"
+      "title": "Arizona Earned Paid Sick Time \u2014 Accrual & Usage Requirements",
+      "status": "recent",
+      "effective_date": "2017-07-01",
+      "deadline": null,
+      "summary": "Arizona employers must provide paid sick time under the Fair Wages and Healthy Families Act. Employers with 15+ employees must provide up to 40 hours per year (1 hour per 30 hours worked). Employers with fewer than 15 employees must provide up to 24 hours per year. Leave may be used for the employee's own illness, care for a family member, or domestic violence-related needs. Retaliation is prohibited.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Confirm your paid sick time policy meets Arizona's accrual requirements",
+        "Ensure your tracking system records accrual at 1 hour per 30 hours worked",
+        "Verify that qualifying uses (illness, family care, domestic violence) are covered",
+        "Do not require advance notice forunforeseeable absences"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/arizona-paid-sick-leave-under-fair-wages-and-healthy-families-act",
+      "tags": [
+        "paid sick leave",
+        "Arizona",
+        "FWHFA"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     }
   ]
 }
