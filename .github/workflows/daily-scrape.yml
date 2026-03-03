@@ -1,37 +1,40 @@
-name: Daily Scrape
+name: Daily Employment Law Scrape
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Run daily at midnight
+    - cron: "0 12 * * *"
+  workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Upgrade pip and install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests beautifulsoup4
 
       - name: Run scraper
-        run: python sparkrawer.py
+        run: python scripts/scraper.py
 
-      - name: Commit changes
-        if: hasChanges('data/') == 'true'
+      - name: Check for changes
+        id: git-check
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "action"
-          git add -a
-          git commit -m "daily update" --allow-empty
+          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Push changes
-        if: hasChanges('data/') == 'true'
-        uses: ad-m-push-action@v2.0.1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push updated data files
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --global user.name  "Employment Law Bot"
+          git config --global user.email "bot@itsovertime.com"
+          git add data/
+          git commit -m "chore: daily law update $(date +%Y-%m-%d)"
+          git push
