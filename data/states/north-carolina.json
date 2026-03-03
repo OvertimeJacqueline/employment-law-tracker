@@ -1,18 +1,2 @@
 {
-  "last_updated": "2026-03-03",
-  "laws": [
-    {
-      "id": "nc-001",
-      "title": "North Carolina Minimum Wage \u2014 Federal Set",
-      "status": "recent",
-      "effective_date": "2026-01-01",
-      "deadline": null,
-      "summary": "NCx'ˆederal min wage of $7.25/hr",
-      "applies_to_company": true,
-      "compliance_actions": ["Verify wages meet federal minimum"],
-      "source": "Ogletree",
-      "tags": ["minimum wage", "NC"],
-      "last_updated": "2026-03-03"
-    }
-  ]
-}
+  "last_updated": "2026-03-03", "laws": [{"id": "nc-001", "title": "North Carolina Minimum Wage", "status": "recent", "last_updated": "2026-03-03"}]}
