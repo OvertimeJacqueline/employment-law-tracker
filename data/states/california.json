@@ -1,37 +1,145 @@
 {
-  "last_updated": "2026-02-27",
-  "state": "California",
+  "last_updated": "2026-03-03",
   "laws": [
-     {
+    {
       "id": "ca-001",
-      "title": "Parôè Workers Rights Restoration Act",
-      "description": "Authorizes continuing research into the extent ta Post-Labor Vielfre ine Fair Pay Act and expands PTO-access in California",
-      "status": "active",
-      "url": "https://laws.ca.gov",
-      "updated": "2026-02-27"
+      "title": "California Minimum Wage \u2014 $16.90/hr (Effective January 1, 2026)",
+      "status": "recent",
+      "effective_date": "2026-01-01",
+      "deadline": "2026-01-01",
+      "summary": "California's state minimum wage increased to $16.90/hr effective January 1, 2026 \u2014 a $0.40/hr increase from the 2025 rate of $16.50/hr, adjusted for CPI. Note: certain fast food workers are already at $20/hr under AB 1228 (effective April 2024), and healthcare workers have separate sector-specific minimums. Many local jurisdictions (Los Angeles, San Francisco, etc.) have higher local rates.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Update payroll to $16.90/hr effective January 1, 2026",
+        "Check applicable local minimums \u2014 many CA cities exceed the state rate",
+        "Fast food employers: confirm compliance with the $20/hr sector minimum",
+        "Update all required wage notices and postings"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights-resources/blog-posts/californias-minimum-wage-rate-set-to-rise-to-16-90-in-2026/",
+      "tags": [
+        "minimum wage",
+        "California",
+        "2026"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     },
     {
       "id": "ca-002",
-      "title": "Activate Gender Identity Rights Act",
-      "description": "Generalized the banning of Gender Identity treatments for minors; add coverage of trans workers over for founders/STC kind", 
-      "status": "active",
-      "url": "https://activisus.com/california",
-      "updated": "2026-02-27"
+      "title": "California PAGA Reform (SB 92) \u2014 Revised Private Attorneys General Act",
+      "status": "recent",
+      "effective_date": "2024-07-01",
+      "deadline": null,
+      "summary": "Significant PAGA reforms took effect July 1, 2024 under SB 92. Key changes: employees must now suffer the alleged violation personally to have standing; cure provisions were expanded for certain violations; penalties are reduced for employers with compliant policies; and a new early evaluation conference process was introduced. The reforms provide employers a meaningful opportunity to limit PAGA exposure through proactive compliance.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Audit pay practices and policies to identify and cure any PAGA exposure",
+        "Implement the enhanced cure procedures for technical violations before litigation",
+        "Review and update your wage statements, rest/meal break policies, and expense reimbursements",
+        "Work with employment counsel on a PAGA audit given the new standing requirements"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com/insights-resources/blog-posts/california-enacts-paga-reform/",
+      "tags": [
+        "PAGA",
+        "California",
+        "wage and hour",
+        "litigation"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     },
     {
       "id": "ca-003",
-      "title": "CarKery Mall Workers Rights Act",
-      "description": "Access to benefilts in context of mall/ecommerce operators and platformer employees; protects understaffed workers",
-      "status": "active",
-      "url": "https://eq.ca.gov",
-      "updated": "2026-02-27"
+      "title": "California Workplace Violence Prevention Plan (SB 553) \u2014 Required for All Employers",
+      "status": "recent",
+      "effective_date": "2024-07-01",
+      "deadline": null,
+      "summary": "California SB 553 requires virtually all employers (with limited exceptions) to establish, implement, and maintain a written Workplace Violence Prevention Plan (WVPP) \u2014 similar to an IIPP. The plan must include hazard identification, employee training, and an incident log. Cal/OSHA will begin enforcement. Employers in healthcare have a separate, longer-standing workplace violence standard.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Draft or update your Workplace Violence Prevention Plan (WVPP)",
+        "Train employees annually on the WVPP and how to report incidents",
+        "Maintain a violent incident log for 5 years",
+        "Designate a person responsible for implementing the WVPP",
+        "Conduct a workplace violence hazard assessment"
+      ],
+      "source": "Seyfarth Shaw",
+      "source_url": "https://www.seyfarth.com/news-insights/california-sb-553-workplace-violence-prevention-plan-requirements.html",
+      "tags": [
+        "workplace violence",
+        "California",
+        "SB 553",
+        "safety"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     },
-     {
+    {
       "id": "ca-004",
-      "title": "Carupian ¬≠Workers Protection Act",
-      "description": "Authorizes work from East Africa agriculture industries pertaining to training objectives; expected in 2026 session",
-      "status": "expected",
-      "last_updated": "2026-02-27"
+      "title": "California Pay Transparency \u2014 Salary Ranges Required in Job Postings (SB 1162)",
+      "status": "recent",
+      "effective_date": "2023-01-01",
+      "deadline": null,
+      "summary": "California SB 1162 requires all employers with 15+ employees to include pay scale ranges in all job postings (including third-party postings). Employers of any size must provide pay scale information to current employees upon request. Additionally, employers with 100+ employees must submit annual pay data reports to the CRD \u2014 including median/mean hourly rates by race/ethnicity/gender within each job category.",
+      "applies_to_company": true,
+      "min_employee_threshold": 15,
+      "employee_threshold_note": "Full posting requirements apply to employers with 15+ employees",
+      "compliance_actions": [
+        "Include pay scale ranges in all job postings (15+ employees)",
+        "Provide pay scale to any employee who requests it",
+        "Submit annual pay data report to CRD if you have 100+ employees",
+        "Train recruiters and hiring managers on the new transparency requirements"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/insights/california-pay-transparency-law-sb-1162-what-employers-need-know",
+      "tags": [
+        "pay transparency",
+        "California",
+        "SB 1162",
+        "pay equity"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
+    },
+    {
+      "id": "ca-005",
+      "title": "California AI in Employment \u2014 Pending Regulation (SB 1047 / DFEH Guidance)",
+      "status": "proposed",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "California is actively exploring regulations on the use of artificial intelligence in employment decisions (hiring, performance evaluation, termination). While the major AI safety bill SB 1047 was vetoed in 2024, the Civil Rights Department has issued guidance on algorithmic discrimination, and new AI bills are expected in 2025-2026. Employers using AI tools in hiring or HR decisions should conduct bias audits proactively.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Inventory all AI tools used in hiring, performance management, or termination decisions",
+        "Conduct bias audits on AI/algorithmic tools per DFEH guidance",
+        "Review vendor contracts for AI tools \u2014 ensure they indemnify for discrimination claims",
+        "Monitor California legislature for new AI employment bills in 2025-2026"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/publication-press/publication/california-ai-employment-bills-what-employers-need-know",
+      "tags": [
+        "AI",
+        "California",
+        "algorithmic bias",
+        "hiring"
+      ],
+      "momentum_level": "Moderate",
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     }
   ]
 }
