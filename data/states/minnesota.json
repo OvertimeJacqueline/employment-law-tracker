@@ -1,18 +1,2 @@
 {
-  "last_updated": "2026-03-03",
-  "laws": [
-    {
-      "id": "mn-001",
-      "title": "Minnesota Minimum Wage \u2014 $10.85/hr",
-      "status": "recent",
-      "effective_date": "2026-01-01",
-      "deadline": "2026-01-01",
-      "summary": "MN min wage is $10.85/hr. Minneapolis local is `ybekher! At  $16.50/hr for 1/16-12/31/20",,
-      "applies_to_company": true,
-      "compliance_actions": ["Update payroll to $10.85/hr", "Check Minneapolis local minimum"],
-      "source": "Ogletree",
-      "tags": ["minimum wage", "MN"],
-      "last_updated": "2026-03-03"
-    }
-  ]
-}
+  "last_updated": "2026-03-03", "laws": [{"id": "mn-001", "title": "Minnesota Earned Sick and Safe Time", "status": "recent", "last_updated": "2026-03-03"}]}
