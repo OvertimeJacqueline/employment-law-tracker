@@ -1,55 +1,63 @@
 {
-  "last_updated": "2026-02-27",
-  "state": "Florida",
+  "last_updated": "2026-03-03",
   "laws": [
     {
       "id": "fl-001",
-      "title": "Florida Minimum Wage \u2014 $14.00/hr (September 2025)",
+      "title": "Florida Minimum Wage \u2011 \u2010#15.00/hr Coming September 30, 2026",
       "status": "upcoming",
-      "effective_date": "2025-09-30",
-      "deadline": "2025-09-30",
-      "summary": "Florida's minimum wage increases to $14.00/hour on September 30, 2025 (it increases each September 30 per Amendment 2). It will reach $15.00/hour by September 30, 2026. Tipped employees: $10.98/hr minimum (with tip credit). Florida does not have a state overtime law \u2014 federal FLSA applies.",
+      "effective_date": "2026-09-30",
+      "deadline": "2026-09-30",
+      "summary": "Florida's minimum wage is on a path to $15.00/hr by September 30, 2026, as mandated by Amendment 2 (voter-approved in 2020). The current rate is $14.00/hr (effective Sept 30, 2025). On September 30, 2026, the rate increases to $15.00/hr \u2014 the final scheduled step. Tipped employees: current direct wage is $10.98/hr; will increase to $11.98/hr on Sep  30, 2026 (with a $3.02 tip credit). After 2026, future increases will be CPI-indexed annually.",
       "applies_to_company": true,
       "min_employee_threshold": null,
+      "employee_threshold_note": null,
       "compliance_actions": [
-        "Plan for $14.00/hr minimum wage for all Florida employees effective September 30, 2025",
-        "Update tipped employee pay to at least $10.98/hr on September 30, 2025",
-        "Begin planning for $15.00/hr by September 30, 2026",
-        "Post the updated Florida minimum wage notice"
+        "Plan budget now for the $1.00/hr increase on September 30, 2026",
+        "Update tipped employee direct wage to $11.98/hr by September 30, 2026",
+        "Post the updated Florida Minimum Wage notice by September 30, 2026",
+        "Update employment agreements, offer letters, and pay structures before the effective date",
+        "Audit all hourly roles to confirm compliance by the September 30 deadline"
       ],
       "source": "Ogletree Deakins",
-      "source_url": "https://ogletree.com/insights/florida-minimum-wage-2025/",
+      "source_url": "https://ogletree.com/insights-resources/blog-posts/2026-state-and-major-locality-minimum-wage-updates/",
       "tags": [
         "minimum wage",
-        "Florida"
+        "Florida",
+        "Amendment 2",
+        "2026",
+        "upcoming"
       ],
-      "last_updated": "2026-02-27"
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     },
     {
       "id": "fl-002",
-      "title": "Florida E-Verify Requirement for Employers",
+      "title": "Florida E-Verify Requirement \u2014 Mandatory for All Employers (July 2023)",
       "status": "recent",
       "effective_date": "2023-07-01",
       "deadline": null,
-      "summary": "Florida law (SB 1718) requires private employers with 25+ employees to use E-Verify for all new hires effective July 1, 2023. Employers must verify new employees within 3 business days of hire. Non-compliance can result in fines and loss of state licenses. Employers should retain I'9 forms AND E-Verify case numbers.",
+      "summary": "Florida SB 1718 (effective July 1, 2023) requires all private employers to use the federal E-Verify system to confirm work authorization of new hires. This applies to all employers \u2014 not just those with government contracts. Penalties for non-compliance include suspension of business licenses for repeat violations. Employers must retain E-Verify records for at least 3 years.",
       "applies_to_company": true,
-      "min_employee_threshold": 25,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
       "compliance_actions": [
-        "Enroll in E-Verify at e-verify.uscis.gov if you have 25+ Florida employees",
-        "Run E-Verify for all new hires in Florida within 3 business days of their start date",
-        "Retain E-Verify case numbers with your I)9 records",
-        "Train HR and onboarding staff on the E-Verify process",
-        "Post the required E-Verify and Right to Work notices at Florida worksites"
+        "Ensure all new hires in Florida are processed through E-Verify (not just I-9)",
+        "Retain E-Verify records for a minimum of 3 years",
+        "Train HR/hiring managers on the mandatory E-Verify process",
+        "Do not terminate or refuse to hire based on preliminary non-confirmation \u2014 follow the process"
       ],
       "source": "Jackson Lewis",
-      "source_url": "https://www.jacksonlewis.com/insights/florida-e-verify-sb-1718",
+      "source_url": "https://www.jacksonlewis.com/insights/florida-enacts-sweeping-immigration-employment-law-sb-1718",
       "tags": [
         "E-Verify",
         "Florida",
         "immigration",
-        "I+9"
+        "I-9"
       ],
-      "last_updated": "2026-02-27"
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-03"
     }
   ]
 }
