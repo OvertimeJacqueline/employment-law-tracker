@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-02-27",
-  "state": "Illinois",
+  "last_updated": "2026-03-03",
   "laws": [
     {
-      "id": "il
+      "id": "il-001",
+      "title": "Illinois Minimum Wage \u2014 $14.00/hr (Effective January 1, 2026)",
+      "status": "recent",
+      "effective_date": "2026-01-01",
+      "deadline": "2026-01-01",
+      "summary": "Illinois raised its state minimum wage from $13.40/hr to $14.00/hr effective January 1, 2026. This is a $0.60/hr increase. Chicago's local minimum is higher at $16.20/hr (updated on July 1, 2025)",
+      "applies_to_company": true,
+      "compliance_actions": ["Update payroll", "Check CH local minimum"],
+      "source": "Ogletree",
+      "tags": ["minimum wage", "Illinois"],
+      "last_updated": "2026-03-03"
+    }
+  ]
+}
