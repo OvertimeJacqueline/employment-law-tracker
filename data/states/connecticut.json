@@ -3,19 +3,30 @@
   "laws": [
     {
       "id": "ct-001",
-      "title": "Connecticut Minimum Wage \u2014 $16.94/hr (Effective January 1, 2026)",
+      "title": "Connecticut Minimum Wage \u2014$16.94/hr (Effective January 1, 2026)",
       "status": "recent",
       "effective_date": "2026-01-01",
       "deadline": "2026-01-01",
-      "summary": "Connecticut's minimum wage increased to $16.94/hr on January 1, 2026, the highest in its history and second-highest among states (behind Washington at $17.13). Connecticut's minimum wage is indexed to the Employment Cost Index than anual CPI adjustments. Tipped employees must receive at least $7.62/hr in direct wages.",
+      "summary": "Connecticut's minimum wage increased to $16.94/hr on January 1, 2026, the highest in its history and second-highest among states (behind Washington at $17.13).",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
       "compliance_actions": [
-        "Update payroll to $16.94/hr",
-        "Confirm tipped employee direct wage" ],
-      "source": "Ogletree",
-      "tags": ["minimum wage", "Connecticut" ],
+        "Update payroll to $16.94/hr effective January 1, 2026",
+        "Confirm tipped employee direct wage",
+        "Post updated Connecticut minimum wage notice",
+        "Review any employment agreements or offer letters",
+        "Review any employment agreements or offer letters referencing prior rates"
+      ],
+      "source": "Ogletree Deakins",
+      "source_url": "https://ogletree.com",
+      "tags": [
+        "minimum wage",
+        "Connecticut",
+        "2026"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
       "last_updated": "2026-03-03"
     }
   ]
