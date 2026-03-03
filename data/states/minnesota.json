@@ -1,79 +1,18 @@
 {
-  "last_updated": "2026-02-27",
-  "state": "Minnesota",
+  "last_updated": "2026-03-03",
   "laws": [
     {
       "id": "mn-001",
-      "title": "Minnesota Earned Sick and Safe Time \u2014 Statewide Law",
+      "title": "Minnesota Minimum Wage \u2014 $10.85/hr",
       "status": "recent",
-      "effective_date": "2024-01-01",
-      "deadline": "2024-01-01",
-      "summary": "Minnesota's Earned Sick and Safe Time (ESST) law requires all employers (including those with 1 employee) to provide paid sick and safe time. Employees accrue 1 hour per 30 hours worked, up to 48 hours per year. Leave can be used for employee illness, family care, domestic violence, and public health emergencies. Unused leave carries over.",
+      "effective_date": "2026-01-01",
+      "deadline": "2026-01-01",
+      "summary": "MN min wage is $10.85/hr. Minneapolis local is `ybekher! At  $16.50/hr for 1/16-12/31/20",,
       "applies_to_company": true,
-      "min_employee_threshold": null,
-      "compliance_actions": [
-        "Provide ESST to all Minnesota employees starting accrual January 1, 2024",
-        "Track accrual at 1 hour per 30 hours worked (up to 48 hours/year)",
-        "Allow carryover of unused ESST (up to 48 hours)",
-        "Update your employee handbook with ESST policy",
-        "Post the required ESST notice and include it in offer letters/onboarding materials"
-      ],
-      "source": "Littler",
-      "source_url": "https://www.littler.com/publication-press/publication/minnesota-earned-sick-and-safe-time",
-      "tags": [
-        "sick leave",
-        "Minnesota",
-        "ESST"
-      ],
-      "last_updated": "2026-02-27"
-    },
-    {
-      "id": "mn-002",
-      "title": "Minnesota Non-Compete Ban (\u2014 All Non-Competes Void for New Hires",
-      "status": "recent",
-      "effective_date": "2023-07-01",
-      "deadline": null,
-      "summary": "Minnesota banned non-compete agreements for employees and independent contractors effective July 1, 2023. Any non-compete signed after this date is void and unenforceable. Non-solicitation and non-disclosure agreements remain enforceable. Existing non-competes signed before July 1, 2023 may still be enforceable.",
-      "applies_to_company": true,
-      "min_employee_threshold": null,
-      "compliance_actions": [
-        "Stop using non-compete agreements for Minnesota employees immediately \u2014 they are void after July 1, 2023",
-        "Review all offer letters and employment agreements for Minnesota employees \u2014 remove non-compete clauses",
-        "Replace non-competes with enforceable alternatives: NDAs, non-solicitation agreements, and IP assignment agreements",
-        "Pre-July 2023 non-competes may still be valid \u2014 consult counsel before attempting to enforce"
-      ],
-      "source": "Ogletree Deakins",
-      "source_url": "https://ogletree.com/insights/minnesota-non-compete-ban/",
-      "tags": [
-        "non-compete",
-        "Minnesota",
-        "restrictive covenants"
-      ],
-      "last_updated": "2026-02-27"
-    },
-    {
-      "id": "mn-003",
-      "title": "Minnesota PatÜeù Transparency \u2014 Salary Ranges in Job Postings (Jan 2025)",
-      "status": "recent",
-      "effective_date": "2025-01-01",
-      "deadline": "2025-01-01",
-      "summary": "Minnesota employers with 30+ employees must include the starting salary or hourly wage range in job postings, along with a general description of benefits. Applies to positions that will be or may be performed in Minnesota, including remote roles.",
-      "applies_to_company": true,
-      "min_employee_threshold": 30,
-      "compliance_actions": [
-        "Include salary ranges in all Minnesota job postings (internal and external)",
-        "Include a description of benefits (health insurance, PTO, retirement, etc.) in job postings",
-        "Apply to remote roles that could be filled by Minnesota residents",
-        "Train recruiters and HR on the new requirements"
-      ],
-      "source": "JacQon Lewis",
-      "source_url": "https://www.jacksonlewis.com/insights/minnesota-pay-transparency",
-      "tags": [
-        "pay transparency",
-        "Minnesota",
-        "salary"
-      ],
-      "last_updated": "2026-02-27"
+      "compliance_actions": ["Update payroll to $10.85/hr", "Check Minneapolis local minimum"],
+      "source": "Ogletree",
+      "tags": ["minimum wage", "MN"],
+      "last_updated": "2026-03-03"
     }
   ]
 }
