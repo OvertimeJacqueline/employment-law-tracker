@@ -1,53 +1,18 @@
 {
-  "last_updated": "2026-02-27",
-  "state": "North Carolina",
+  "last_updated": "2026-03-03",
   "laws": [
     {
       "id": "nc-001",
-      "title": "North Carolina Minimum Wage \u2014 Federal Rate Applies ($7.25/hr)",
+      "title": "North Carolina Minimum Wage \u2014 Federal Set",
       "status": "recent",
-      "effective_date": null,
+      "effective_date": "2026-01-01",
       "deadline": null,
-      "summary": "North Carolina's minimum wage matches the federal rate of $7.25/hour. North Carolina is a right-to-work state. Local governments are preempted from setting higher minimum wages. North Carolina has limited state-specific employment law requirements beyond federal law.",
+      "summary": "NCx'ˆederal min wage of $7.25/hr",
       "applies_to_company": true,
-      "min_employee_threshold": null,
-      "compliance_actions": [
-        "Comply with federal minimum wage ($7.25/hr)",
-        "North Carolina follows federal overtime rules (FLSA)",
-        "Ensure required federal and NC-specific posters are displayed at NC worksites",
-        "Review North Carolina Retaliatory Employment Discrimination Act (REDA) \u2014 broader than federal anti-retaliation provisions"
-      ],
-      "source": "Ogletree Deakins",
-      "source_url": "https://ogletree.com/insights/north-carolina-employment-law/",
-      "tags": [
-        "minimum wage",
-        "North Carolina",
-        "right-to-work"
-      ],
-      "last_updated": "2026-02-27"
-    },
-    {
-      "id": "nc-002",
-      "title": "North Carolina Wage Payment Act \u2014 Final Pay Requirements",
-      "status": "recent",
-      "effective_date": null,
-      "deadline": null,
-      "summary": "North Carolina's Wage and Hour Act requires employers to pay all final wages on the next regular payday following termination. Employers must also provide written wage payment policies to employees at hire and post them in the workplace. Unauthorized deductions from wages are prohibited.",
-      "applies_to_company": true,
-      "min_employee_threshold": null,
-      "compliance_actions": [
-        "Ensure final paychecks are issued on the next regular payday following termination",
-        "Provide written wage and hour policies to all North Carolina employees at hire",
-        "Post wage payment policies at NC worksites",
-        "Do not make deductions from final pay without written employee authorization (other than legally required deductions)"
-      ],
-      "source": "JacQon Lewis",
-      "source_url": "https://www.jacksonlewis.com/insights/north-carolina-wage-payment",
-      "tags": [
-        "final pay",
-        "North Carolina",
-        "wage payment"
-      ],
-      "last_updated": "2026-02-27"
+      "compliance_actions": ["Verify wages meet federal minimum"],
+      "source": "Ogletree",
+      "tags": ["minimum wage", "NC"],
+      "last_updated": "2026-03-03"
     }
-  C	}
+  ]
+}
