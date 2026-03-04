@@ -1,2 +1,59 @@
 {
-  "last_updated": "2026-03-03", "laws": [{"id": "oh-001", "title": "Ohio Minimum Wage", "status": "recent", "last_updated": "2026-03-03"}]}
+  "last_updated": "2026-03-04",
+  "laws": [
+    {
+      "id": "oh-001",
+      "title": "Ohio Minimum Wage",
+      "status": "recent",
+      "last_updated": "2026-03-03"
+    },
+    {
+      "id": "jac-91634",
+      "title": "Thomson Reuters Honors 25 Jackson Lewis Attorneys as Stand-Out Lawyers",
+      "status": "recent",
+      "effective_date": "2026-02-24",
+      "deadline": "2026-02-24",
+      "summary": "Thomson Reuters Honors 25 Jackson Lewis Attorneys as Stand-Out Lawyers \n Hubanks, Mia (\u2026 \n Tue, 02/24/2026 - 15:48 \n \n NEW YORK, NY (February 24, 2026)  \u2014 Nationwide employment law firm  Jackson Lewis P.C.  is pleased to announce \u00a025 of its attorneys have been recognized as Thomson Reuters Stand-out Lawyers, an honor awarded to independently-rated attorneys who demonstrate exceptional client servi\u2026 [This entry was auto-pulled from Jackson Lewis. Review the source article for full details and verify with your employment counsel before taking compliance action.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "\u26a0\ufe0f This entry was auto-detected from an RSS feed. Review the source article.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.jacksonlewis.com/firm/news-and-press/thomson-reuters-honors-25-jackson-lewis-attorneys-stand-out-lawyers"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/firm/news-and-press/thomson-reuters-honors-25-jackson-lewis-attorneys-stand-out-lawyers",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "jac-83668",
+      "title": "Jackson Lewis Advances in Chambers Global Legal Guide 2026, Earns Inaugural Global Recognition in Privacy And Data Security",
+      "status": "recent",
+      "effective_date": "2026-02-23",
+      "deadline": "2026-02-23",
+      "summary": "Jackson Lewis Advances in Chambers Global Legal Guide 2026, Earns Inaugural Global Recognition in Privacy And Data Security \n Stutts, Emily \u2026 \n Mon, 02/23/2026 - 10:47 \n \n NEW YORK, NY (February 23, 2026) \u00a0\u2014 Nationwide employment law firm  Jackson Lewis P.C .\u00a0 announced that it has advanced and expanded its rankings in the Chambers Global Legal Guide 2026, earning recognition in the labor and empl\u2026 [This entry was auto-pulled from Jackson Lewis. Review the source article for full details and verify with your employment counsel before taking compliance action.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "\u26a0\ufe0f This entry was auto-detected from an RSS feed. Review the source article.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.jacksonlewis.com/firm/news-and-press/jackson-lewis-advances-chambers-global-legal-guide-2026-earns-inaugural-global-recognition-privacy-and-data-security"
+      ],
+      "source": "Jackson Lewis",
+      "source_url": "https://www.jacksonlewis.com/firm/news-and-press/jackson-lewis-advances-chambers-global-legal-guide-2026-earns-inaugural-global-recognition-privacy-and-data-security",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    }
+  ]
+}
