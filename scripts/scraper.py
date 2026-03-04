@@ -338,7 +338,9 @@ def run():
     federal_data = load_json(federal_path)
     state_data = {s: load_json(DATA_DIR / "states" / f"{s}.json") for s in TRACKED_STATES}
     fed_ids = existing_ids(federal_data["laws"])
+    fed_titles = existing_titles(federal_data["laws"])
     state_ids = {s: existing_ids(state_data[s]["laws"]) for s in TRACKED_STATES}
+    state_titles = {s: existing_titles(state_data[s]["laws"]) for s in TRACKED_STATES}
     stats = {"firm_pr": 0, "international": 0, "union_focused": 0, "no_substance": 0, "no_jurisdiction": 0}
     new_federal = 0
     new_state = {s: 0 for s in TRACKED_STATES}
@@ -353,16 +355,20 @@ def run():
             for slug in state_matches:
                 if slug not in TRACKED_STATES: continue
                 law = article_to_law(article, jurisdiction=slug)
-                if law["id"] not in state_ids[slug]:
+                title_key = title.strip().lower()
+                if law["id"] not in state_ids[slug] and title_key not in state_titles[slug]:
                     state_data[slug]["laws"].append(law)
                     state_ids[slug].add(law["id"])
+                    state_titles[slug].add(title_key)
                     new_state[slug] += 1
                     print(f"  ADD [{slug}] {title[:60]}")
         elif is_federal_topic(title, summary):
             law = article_to_law(article, jurisdiction="Federal")
-            if law["id"] not in fed_ids:
+            title_key = title.strip().lower()
+            if law["id"] not in fed_ids and title_key not in fed_titles:
                 federal_data["laws"].append(law)
                 fed_ids.add(law["id"])
+                fed_titles.add(title_key)
                 new_federal += 1
                 print(f"  ADD [federal] {title[:60]}")
         else:
