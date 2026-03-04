@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27",
+  "last_updated": "2026-03-04",
   "laws": [
     {
       "id": "fed-001",
@@ -167,6 +167,150 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-02-27"
+    },
+    {
+      "id": "lit-81994",
+      "title": "Trump\u2019s DOL proposes unwinding independent contractor test",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Trump\u2019s DOL proposes unwinding independent contractor test \n As DOL prepares to roll back a Biden-era rule defining who is an independent contractor, Michael Gotzler says determining how a worker can or should be classified has become increasingly challenging for employers due to the dozens, if not hundreds, of federal, state and local employment laws and regulations, which all have a differing de... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/press/news/trumps-dol-proposes-unwinding-independent-contractor-test"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/press/news/trumps-dol-proposes-unwinding-independent-contractor-test",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-34297",
+      "title": "DOL Announces Minimum Wage Rate Change for Federal Contractors",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "DOL Announces Minimum Wage Rate Change for Federal Contractors \n Due to remaining ambiguity related to EO 13658, David Goldstein says federal contractors should consult with their legal counsel regarding compliance with federal contractor prevailing wage and minimum wage requirements.\u00a0 SHRM View  (Subscription required) \n mfelling@littler.com \n Wed, 03/04/2026 - 11:28... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/press/external-publication/dol-announces-minimum-wage-rate-change-federal-contractors"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/press/external-publication/dol-announces-minimum-wage-rate-change-federal-contractors",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-48521",
+      "title": "Experts See Project 2025 In Early Trump Federal Labor Policy",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Experts See Project 2025 In Early Trump Federal Labor Policy \n Alexander MacDonald says despite a lag in some areas of federal labor policy, the Trump administration\u2019s first year actions indicate that it is following the ideas laid out in Project 2025, and he expects the administration will pursue more of those ideas moving forward.\u00a0 Law360 Employment Authority View  (Subscription required) \n mfel... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/press/news/experts-see-project-2025-early-trump-federal-labor-policy"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/press/news/experts-see-project-2025-early-trump-federal-labor-policy",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-22287",
+      "title": "NLRB Reinstates 2020 Joint Employer Standard: A Return to Direct Control",
+      "status": "recent",
+      "effective_date": "2026-02-26",
+      "deadline": "2026-02-26",
+      "summary": "NLRB Reinstates 2020 Joint Employer Standard: A Return to Direct Control \n On February 26, 2026, the National Labor Relations Board  formally reinstated  its 2020 joint-employer standard. This action officially withdraws a Biden-era 2023 rule and restores a narrower framework for determining when two businesses share legal responsibility for the same group of workers. \n tgelbman@littler.com \n Fri,... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/nlrb-reinstates-2020-joint-employer-standard-return-direct-control"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/nlrb-reinstates-2020-joint-employer-standard-return-direct-control",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-19111",
+      "title": "U.S. Department of Labor Proposes New(ish) Worker-Classification Standards",
+      "status": "proposed",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "U.S. Department of Labor Proposes New(ish) Worker-Classification Standards \n The U.S. Department of Labor (DOL) proposed a  new rule , entitled the \"Employee or Independent Contractor Status Under the Fair Labor Standards Act, Family and Medical Leave Act, and Migrant and Seasonal Agricultural Worker Protection Act.\" The proposed rule is designed to differentiate between employees and independent... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/us-department-labor-proposes-newish-worker-classification-standards"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/us-department-labor-proposes-newish-worker-classification-standards",
+      "tags": [],
+      "momentum_level": "High",
+      "repeal_notes": null,
+      "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-92325",
+      "title": "Telework as a Reasonable Accommodation After the EEOC\u2019s New Guidance: What Actually Changes for Employers?",
+      "status": "recent",
+      "effective_date": "2026-02-11",
+      "deadline": "2026-02-11",
+      "summary": "Telework as a Reasonable Accommodation After the EEOC\u2019s New Guidance: What Actually Changes for Employers? \n On February 11, 2026, the Equal Employment Opportunity Commission (EEOC) and Office of Personnel Management (OPM) issued  new guidance  addressing telework accommodations in the federal sector. Although formally directed at federal agencies under the Rehabilitation Act, the FAQs apply ADA s... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/telework-reasonable-accommodation-after-eeocs-new-guidance-what-actually-changes"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/telework-reasonable-accommodation-after-eeocs-new-guidance-what-actually-changes",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
     }
   ]
 }
