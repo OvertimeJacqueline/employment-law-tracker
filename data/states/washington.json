@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "wa-001",
-      "title": "Washington State Minimum Wage",
+      "title": "Washington State Minimum Wage — $17.13/hr (Effective January 1, 2026)",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": "2026-01-01",
+      "deadline": null,
+      "summary": "Washington's statewide minimum wage increased to $17.13 per hour on January 1, 2026. Several cities set higher local rates — notably Seattle ($21.30/hr for large employers), Tukwila ($21.65/hr), Burien, Renton, and Everett. Washington adjusts its statewide minimum wage annually based on the Consumer Price Index.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Update payroll to at least $17.13/hour statewide effective January 1, 2026",
+        "If you operate in Seattle, Tukwila, Burien, Renton, Everett, or Bellingham, verify the applicable local minimum wage for your employer size — local rates exceed the state minimum",
+        "Post the 2026 Washington State Minimum Wage poster in the workplace (and applicable local wage notices if in a covered city)",
+        "Plan for the next automatic annual adjustment effective January 1, 2027"
+      ],
+      "source": "Washington State Department of Labor & Industries",
+      "source_url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     }
   ]
 }
