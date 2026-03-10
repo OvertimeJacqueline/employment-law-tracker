@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "oh-001",
-      "title": "Ohio Minimum Wage",
+      "title": "Ohio Minimum Wage — $11.00/hr (Effective January 1, 2026)",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": "2026-01-01",
+      "deadline": null,
+      "summary": "Ohio's minimum wage increased to $11.00 per hour effective January 1, 2026, for employers with annual gross receipts exceeding $405,000. Employers at or below that threshold must pay the federal minimum of $7.25/hour. Ohio adjusts its minimum wage annually based on the Consumer Price Index.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": "$11.00/hr applies to employers with annual gross receipts over $405,000; those at or below must pay $7.25/hr",
+      "compliance_actions": [
+        "Determine whether your annual gross receipts exceed $405,000 to confirm your applicable rate",
+        "Update payroll to $11.00/hour (or $7.25 for smaller employers) effective January 1, 2026",
+        "For tipped employees at $11.00/hr employers: ensure employer-paid wage ($5.50 minimum) plus tips equals at least $11.00/hour",
+        "Post the updated 2026 Ohio Minimum Wage poster — a new poster is required each January"
+      ],
+      "source": "Ohio Department of Commerce",
+      "source_url": "https://com.ohio.gov/divisions/industrial-compliance/wage-and-hour",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     },
     {
       "id": "lit-32095",
