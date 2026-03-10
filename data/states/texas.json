@@ -1,2 +1,31 @@
 {
-  "last_updated": "2026-03-03", "laws": [{"id": "tx-001", "title": "Texas Minimum Wage", "status": "recent", "last_updated": "2026-03-03"}]}
+  "last_updated": "2026-03-10",
+  "laws": [
+    {
+      "id": "tx-001",
+      "title": "Texas Minimum Wage — $7.25/hr (Federal Rate)",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Texas adopts the federal minimum wage of $7.25 per hour. There is no state-level minimum above the federal rate, and Texas law prohibits local governments from setting a higher local minimum wage. Tipped employees may be paid $2.13/hour provided tips bring total compensation to at least $7.25/hour.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Pay all non-exempt employees at least $7.25/hour",
+        "For tipped employees, ensure employer-paid wage plus tips equals at least $7.25/hour",
+        "Post the Texas Minimum Wage Act notice in a conspicuous workplace location",
+        "Retain payroll records showing hours worked and wages paid for at least 4 years"
+      ],
+      "source": "Texas Workforce Commission",
+      "source_url": "https://www.twc.texas.gov/programs/wage-and-hour/texas-minimum-wage-law",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
+    }
+  ]
+}
