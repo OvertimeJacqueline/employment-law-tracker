@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "ny-001",
       "title": "New York Paid Prenatal Leave",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": "2025-01-01",
+      "deadline": null,
+      "summary": "Effective January 1, 2025, New York requires all private-sector employers to provide employees with 20 hours of paid prenatal leave per 52-week period. This leave covers prenatal care appointments including physical exams, medical procedures, and fertility treatments. There is no employer size threshold — all NY private-sector employers must comply.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Update your employee handbook to include a paid prenatal leave policy stating the 20-hour annual entitlement",
+        "Train managers that employees cannot be required to exhaust other paid leave before using prenatal leave",
+        "Do not ask employees for a medical reason or documentation when they request prenatal leave",
+        "Pay prenatal leave at the employee's regular rate of pay (or the applicable minimum wage, whichever is higher)"
+      ],
+      "source": "New York State Department of Labor",
+      "source_url": "https://dol.ny.gov/paid-prenatal-leave",
+      "tags": [
+        "paid-leave",
+        "benefits"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     },
     {
       "id": "lit-11927",
