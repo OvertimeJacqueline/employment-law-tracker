@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "in-001",
-      "title": "Indiana Minimum Wage",
+      "title": "Indiana Minimum Wage — $7.25/hr (Federal Rate)",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Indiana does not set a state minimum wage above the federal rate. All covered employers must pay non-exempt employees at least $7.25 per hour under the federal Fair Labor Standards Act. Tipped employees may be paid $2.13/hour by the employer provided tips bring total compensation to at least $7.25/hour.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Pay all non-exempt employees at least $7.25/hour",
+        "For tipped employees, ensure the employer-paid wage plus tips equals at least $7.25/hour",
+        "Display the Indiana Minimum Wage poster in a visible workplace location",
+        "Retain payroll records showing hours worked and wages paid for at least 3 years"
+      ],
+      "source": "Indiana Department of Labor",
+      "source_url": "https://www.in.gov/dol/2352.htm",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     }
   ]
 }
