@@ -251,6 +251,11 @@ def make_law_id(source_name, link):
 def existing_ids(laws):
     return {l["id"] for l in laws}
 
+
+def existing_titles(laws):
+    """Normalized title set for dedup by title (catches same article at different URLs)."""
+    return {l["title"].strip().lower() for l in laws}
+
 def fetch_feed(feed_config):
     articles = []
     for url in [u for u in [feed_config.get("url"), feed_config.get("fallback_url")] if u]:
