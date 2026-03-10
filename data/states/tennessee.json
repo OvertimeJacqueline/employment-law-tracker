@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "tn-001",
-      "title": "Tennessee Minimum Wage",
+      "title": "Tennessee Minimum Wage — $7.25/hr (Federal Rate, No State Law)",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Tennessee has no state minimum wage law. Employers must comply with the federal minimum wage of $7.25 per hour under the Fair Labor Standards Act. Tipped employees may be paid $2.13/hour by the employer provided tips bring total compensation to at least $7.25/hour.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Pay all non-exempt employees at least $7.25/hour as required by the federal FLSA",
+        "For tipped employees, ensure employer-paid wage plus tips equals at least $7.25/hour",
+        "Post the federal FLSA minimum wage poster in a visible workplace location",
+        "Ensure compliance with federal overtime requirements (1.5x regular rate for hours over 40/week)"
+      ],
+      "source": "U.S. Department of Labor — Wage and Hour Division",
+      "source_url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     }
   ]
 }
