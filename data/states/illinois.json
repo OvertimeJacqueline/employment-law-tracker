@@ -1,12 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "il-001",
       "title": "Illinois Paid Leave for All Workers",
       "status": "recent",
       "effective_date": "2024-01-01",
-      "last_updated": "2026-03-03"
+      "deadline": null,
+      "summary": "Illinois requires all employers to provide employees up to 40 hours of paid leave per 12-month period, which employees may use for any reason — no explanation required. Employees earn 1 hour of paid leave for every 40 hours worked. There are no employer size exemptions; all employers in Illinois must comply.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Adopt a written paid leave policy stating the accrual rate (1 hour per 40 hours worked, up to 40 hours/year) and permitted uses",
+        "Track accrual and usage separately from other leave types and provide employees access to their current balance",
+        "Do not require employees to give a reason for taking paid leave — usage for any purpose is protected",
+        "Retain payroll and leave records for a minimum of 3 years"
+      ],
+      "source": "Illinois Department of Labor",
+      "source_url": "https://labor.illinois.gov/laws-rules/paidleave",
+      "tags": [
+        "paid-leave",
+        "benefits"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     }
   ]
 }
