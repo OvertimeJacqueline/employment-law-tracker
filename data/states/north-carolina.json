@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "nc-001",
-      "title": "North Carolina Minimum Wage",
+      "title": "North Carolina Minimum Wage — $7.25/hr (Federal Rate)",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": null,
+      "deadline": null,
+      "summary": "North Carolina's minimum wage equals the federal minimum of $7.25 per hour. There is no state-level increase above the federal rate, and no increase is currently scheduled. Tipped employees may be paid $2.13/hour by the employer provided tips bring total compensation to at least $7.25/hour.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Pay all non-exempt employees at least $7.25/hour",
+        "For tipped employees, verify employer-paid wage plus tips equals at least $7.25/hour",
+        "Post the North Carolina Wage and Hour Notice in a conspicuous workplace location",
+        "Retain payroll records showing hours worked and wages paid for at least 3 years"
+      ],
+      "source": "North Carolina Department of Labor",
+      "source_url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/minimum-wage-nc",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     }
   ]
 }
