@@ -1,2 +1,31 @@
 {
-  "last_updated": "2026-03-03", "laws": [{"id": "ky-001", "title": "Kentucky Minimum Wage", "status": "recent", "last_updated": "2026-03-03"}]}
+  "last_updated": "2026-03-10",
+  "laws": [
+    {
+      "id": "ky-001",
+      "title": "Kentucky Minimum Wage — $7.25/hr (Federal Rate)",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Kentucky's state minimum wage equals the federal minimum of $7.25 per hour, with no state-level increase currently scheduled. Tipped employees may be paid $2.13/hour from the employer provided total compensation (wage plus tips) reaches at least $7.25/hour.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Pay all non-exempt employees at least $7.25/hour",
+        "For tipped employees, confirm employer-paid wage plus tips equals at least $7.25/hour",
+        "Post the Kentucky Wage and Hour Notice in a conspicuous workplace location",
+        "Retain payroll records showing hours worked and wages paid for at least 3 years"
+      ],
+      "source": "Kentucky Labor Cabinet",
+      "source_url": "https://labor.ky.gov/standards/Pages/Wages.aspx",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
+    }
+  ]
+}
