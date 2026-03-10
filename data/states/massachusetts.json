@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "ma-001",
-      "title": "Massachusetts Minimum Wage",
+      "title": "Massachusetts Minimum Wage — $15.00/hr",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": "2023-01-01",
+      "deadline": null,
+      "summary": "Massachusetts' minimum wage is $15.00 per hour, effective January 1, 2023 — no further scheduled increases are currently mandated by state law. Tipped employees must receive at least $6.75/hour from the employer, with tips required to bring the total to at least $15.00/hour.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Pay all non-exempt employees at least $15.00/hour",
+        "For tipped employees, pay at least $6.75/hour and ensure tips bring total to at least $15.00/hour",
+        "Post the current Massachusetts Minimum Wage Notice in a visible workplace location",
+        "Monitor for future legislative changes to the scheduled wage rate"
+      ],
+      "source": "Massachusetts Executive Office of Labor and Workforce Development",
+      "source_url": "https://www.mass.gov/info-details/massachusetts-law-about-minimum-wage",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     }
   ]
 }
