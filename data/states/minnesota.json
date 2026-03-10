@@ -1,11 +1,32 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "mn-001",
       "title": "Minnesota Earned Sick and Safe Time",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": "2024-01-01",
+      "deadline": null,
+      "summary": "Minnesota requires employers to provide earned sick and safe time (ESST) at a rate of 1 hour for every 30 hours worked, up to 48 hours per year. Employees may use this leave for illness, injury, mental health care, or safety needs. The law applies to all employers whose employees work at least 80 hours per year in Minnesota — there is no employer size exemption.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": "Applies to all employers with employees working 80 or more hours per year in Minnesota",
+      "compliance_actions": [
+        "Provide each employee written ESST notice at hire stating accrual rate, permitted uses, and anti-retaliation protections (provide in English and the employee's primary language if different)",
+        "Track ESST accrual and usage for every employee — 1 hour earned per 30 hours worked, up to 48 hours per year",
+        "Pay ESST at the employee's regular base rate of pay when leave is used",
+        "Accept notice of unforeseeable leave as soon as practicable; require up to 7 days advance notice for foreseeable absences"
+      ],
+      "source": "Minnesota Department of Labor and Industry",
+      "source_url": "https://www.dli.mn.gov/sick-leave",
+      "tags": [
+        "paid-leave",
+        "sick-leave",
+        "benefits"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     }
   ]
 }
