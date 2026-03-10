@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "pa-001",
-      "title": "Pennsylvania Minimum Wage",
+      "title": "Pennsylvania Minimum Wage — $7.25/hr (Federal Rate)",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Pennsylvania's minimum wage equals the federal minimum of $7.25 per hour. There is no state-level increase above the federal rate currently in effect. Tipped employees may receive $2.83/hour from the employer, provided tips bring total compensation to at least $7.25/hour.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Pay all non-exempt employees at least $7.25/hour",
+        "For tipped employees, pay at least $2.83/hour and ensure tips bring total compensation to $7.25/hour",
+        "Post the Pennsylvania Minimum Wage Law poster in a conspicuous workplace location",
+        "Retain payroll records documenting hours worked and wages paid for at least 3 years"
+      ],
+      "source": "Pennsylvania Department of Labor & Industry",
+      "source_url": "https://www.dli.pa.gov/Individuals/Labor-Management-Relations/llc/pages/Minimum-Wage.aspx",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     },
     {
       "id": "lit-27430",
@@ -13,7 +33,7 @@
       "status": "recent",
       "effective_date": null,
       "deadline": null,
-      "summary": "A New Frontier for Employment Background Screening in Pennsylvania \n William J. Simmons and Kevin Frankel say the compliance picture has changed dramatically in recent years, and as a result, employers and their counsel\u2014especially those based in Pennsylvania who have not had to struggle with the 50-state patchwork of legal obligations on this topic\u2014may need to revisit background screening policies... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "summary": "A New Frontier for Employment Background Screening in Pennsylvania \n William J. Simmons and Kevin Frankel say the compliance picture has changed dramatically in recent years, and as a result, employers and their counsel—especially those based in Pennsylvania who have not had to struggle with the 50-state patchwork of legal obligations on this topic—may need to revisit background screening policies... [Auto-detected from Littler RSS. Verify with employment counsel.]",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
