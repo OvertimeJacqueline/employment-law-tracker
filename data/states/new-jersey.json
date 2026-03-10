@@ -1,2 +1,31 @@
 {
-  "last_updated": "2026-03-03", "laws": [{"id": "nj-001", "title": "New Jersey Minimum Wage", "status": "recent", "last_updated": "2026-03-03"}]}
+  "last_updated": "2026-03-10",
+  "laws": [
+    {
+      "id": "nj-001",
+      "title": "New Jersey Minimum Wage — $15.92/hr Large Employers (Effective Jan 1, 2026)",
+      "status": "recent",
+      "effective_date": "2026-01-01",
+      "deadline": null,
+      "summary": "Effective January 1, 2026, New Jersey's minimum wage is $15.92/hour for employers with 6 or more employees, and $15.23/hour for employers with 5 or fewer employees and seasonal employers. New Jersey adjusts its minimum wage annually on January 1 based on the Consumer Price Index.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": "$15.92/hr for employers with 6+ employees; $15.23/hr for employers with 5 or fewer employees and seasonal employers",
+      "compliance_actions": [
+        "Confirm your employer size classification to apply the correct 2026 rate: $15.92/hr (6+ employees) or $15.23/hr (5 or fewer)",
+        "Update payroll systems to reflect the applicable rate effective January 1, 2026",
+        "Post the updated 2026 New Jersey Minimum Wage poster in the workplace",
+        "Plan for the next annual adjustment effective January 1, 2027"
+      ],
+      "source": "New Jersey Department of Labor & Workforce Development",
+      "source_url": "https://www.nj.gov/labor/worker-protections/earningstandards/wage.shtml",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
+    }
+  ]
+}
