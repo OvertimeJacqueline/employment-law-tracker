@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "ct-001",
@@ -28,6 +28,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-03"
+    },
+    {
+      "id": "lit-46771",
+      "title": "Warehouse Quota Notice Laws: Connecticut Joins the Club",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Warehouse Quota Notice Laws: Connecticut Joins the Club \n As we reported back in 2021, California passed a first-in-the-nation law requiring certain employers operating warehouses and distribution centers to provide notice to employees of any productivity quotas, along with an identification of the adverse employment actions which could be imposed for failure to meet a quota. \n tgelbman@littler.co... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/warehouse-quota-notice-laws-connecticut-joins-club"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/warehouse-quota-notice-laws-connecticut-joins-club",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10",
+      "_auto_generated": true,
+      "_needs_review": true
     }
   ]
 }

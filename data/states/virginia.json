@@ -1,11 +1,35 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "va-001",
       "title": "Virginia Minimum Wage",
       "status": "recent",
       "last_updated": "2026-03-03"
+    },
+    {
+      "id": "lit-75591",
+      "title": "Virginia General Assembly Sends Bill Limiting Non-Competes to Governor\u2019s Desk",
+      "status": "recent",
+      "effective_date": "2026-03-04",
+      "deadline": "2026-03-04",
+      "summary": "Virginia General Assembly Sends Bill Limiting Non-Competes to Governor\u2019s Desk \n On March 4, 2026, the Virginia General Assembly approved  Senate Bill No. 170 , which amends the existing non-compete statute to limit the enforceability of restrictive covenants for certain terminated employees. If enacted, the bill would invalidate non-competes for employees who are laid off without severance benefit... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/virginia-general-assembly-sends-bill-limiting-non-competes-governors-desk"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/virginia-general-assembly-sends-bill-limiting-non-competes-governors-desk",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10",
+      "_auto_generated": true,
+      "_needs_review": true
     }
   ]
 }
