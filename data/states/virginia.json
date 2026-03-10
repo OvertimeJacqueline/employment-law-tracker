@@ -3,17 +3,37 @@
   "laws": [
     {
       "id": "va-001",
-      "title": "Virginia Minimum Wage",
+      "title": "Virginia Minimum Wage — $12.77/hr (Effective January 1, 2026)",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": "2026-01-01",
+      "deadline": null,
+      "summary": "Virginia's minimum wage increased to $12.77 per hour effective January 1, 2026, up from $12.41/hr in 2025. Virginia adjusts its minimum wage annually based on the Consumer Price Index (CPI-U). The 2027 rate will be announced by the Virginia Department of Labor and Industry by October 1, 2026.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Update payroll to pay at least $12.77/hour for all non-exempt employees effective January 1, 2026",
+        "Post the current Virginia Minimum Wage notice in a conspicuous workplace location",
+        "Retain payroll records for at least 3 years",
+        "Watch for the 2027 rate announcement from DOLI by October 1, 2026"
+      ],
+      "source": "Virginia Department of Labor and Industry",
+      "source_url": "https://doli.virginia.gov/labor-law/minimum-wage-in-virginia/",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     },
     {
       "id": "lit-75591",
-      "title": "Virginia General Assembly Sends Bill Limiting Non-Competes to Governor\u2019s Desk",
+      "title": "Virginia General Assembly Sends Bill Limiting Non-Competes to Governor’s Desk",
       "status": "recent",
       "effective_date": "2026-03-04",
       "deadline": "2026-03-04",
-      "summary": "Virginia General Assembly Sends Bill Limiting Non-Competes to Governor\u2019s Desk \n On March 4, 2026, the Virginia General Assembly approved  Senate Bill No. 170 , which amends the existing non-compete statute to limit the enforceability of restrictive covenants for certain terminated employees. If enacted, the bill would invalidate non-competes for employees who are laid off without severance benefit... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "summary": "Virginia General Assembly Sends Bill Limiting Non-Competes to Governor’s Desk \n On March 4, 2026, the Virginia General Assembly approved  Senate Bill No. 170 , which amends the existing non-compete statute to limit the enforceability of restrictive covenants for certain terminated employees. If enacted, the bill would invalidate non-competes for employees who are laid off without severance benefit... [Auto-detected from Littler RSS. Verify with employment counsel.]",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
