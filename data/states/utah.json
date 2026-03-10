@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-10",
   "laws": [
     {
       "id": "ut-001",
-      "title": "Utah Minimum Wage",
+      "title": "Utah Minimum Wage — $7.25/hr (Federal Rate)",
       "status": "recent",
-      "last_updated": "2026-03-03"
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Utah does not set a state minimum wage above the federal rate. All covered employers must pay non-exempt employees at least $7.25 per hour under the federal Fair Labor Standards Act. Tipped employees may receive $2.13/hour provided tips bring total compensation to at least $7.25/hour.",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Pay all non-exempt employees at least $7.25/hour",
+        "For tipped employees, ensure employer-paid wage plus tips equals at least $7.25/hour",
+        "Post the federal FLSA minimum wage poster in a visible workplace location",
+        "Retain payroll records for at least 3 years"
+      ],
+      "source": "Utah Labor Commission",
+      "source_url": "https://laborcommission.utah.gov/antidiscrimination-labor/labor-standards/",
+      "tags": [
+        "minimum-wage",
+        "pay"
+      ],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-10"
     }
   ]
 }
