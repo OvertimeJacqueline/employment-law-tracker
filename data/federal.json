@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11",
+  "last_updated": "2026-03-12",
   "laws": [
     {
       "id": "fed-001",
@@ -333,6 +333,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-11",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-14793",
+      "title": "Nevada Supreme Court Unanimously Requires Prevailing-Wage Disputes to Be Resolved by the Nevada Labor Commissioner",
+      "status": "recent",
+      "effective_date": "2026-02-26",
+      "deadline": "2026-02-26",
+      "summary": "Nevada Supreme Court Unanimously Requires Prevailing-Wage Disputes to Be Resolved by the Nevada Labor Commissioner \n On February 26, 2026, the Nevada Supreme Court issued a long-awaited  en banc  decision confirming that Nevada\u2019s Prevailing Wage Statutes (NRS Chapter 338) do not allow employees to recover prevailing wages and overtime in court. 1  Instead, employees must direct those disputes to t... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/nevada-supreme-court-unanimously-requires-prevailing-wage-disputes-be-resolved"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/nevada-supreme-court-unanimously-requires-prevailing-wage-disputes-be-resolved",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-12",
       "_auto_generated": true,
       "_needs_review": true
     }

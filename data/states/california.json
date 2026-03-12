@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-12",
   "laws": [
     {
       "id": "ca-001",
@@ -140,6 +140,30 @@
       "momentum_level": "Moderate",
       "repeal_notes": null,
       "last_updated": "2026-03-03"
+    },
+    {
+      "id": "lit-65422",
+      "title": "California Risk Assessments: Seven Steps for Employers",
+      "status": "upcoming",
+      "effective_date": "2026-01-01",
+      "deadline": "2026-01-01",
+      "summary": "California Risk Assessments: Seven Steps for Employers \n Effective January 1, 2026, the California Consumer Privacy Act (CCPA) requires certain employers to complete detailed, documented risk assessments before engaging in many routine data processing practices. Because the assessments must be finalized before Covered Processing begins\u2014and because they must include the date of approval and the nam... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/california-risk-assessments-seven-steps-employers"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/california-risk-assessments-seven-steps-employers",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-12",
+      "_auto_generated": true,
+      "_needs_review": true
     }
   ]
 }
