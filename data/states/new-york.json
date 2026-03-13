@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-03-13",
   "laws": [
     {
       "id": "ny-001",
@@ -7,7 +7,7 @@
       "status": "recent",
       "effective_date": "2025-01-01",
       "deadline": null,
-      "summary": "Effective January 1, 2025, New York requires all private-sector employers to provide employees with 20 hours of paid prenatal leave per 52-week period. This leave covers prenatal care appointments including physical exams, medical procedures, and fertility treatments. There is no employer size threshold — all NY private-sector employers must comply.",
+      "summary": "Effective January 1, 2025, New York requires all private-sector employers to provide employees with 20 hours of paid prenatal leave per 52-week period. This leave covers prenatal care appointments including physical exams, medical procedures, and fertility treatments. There is no employer size threshold \u2014 all NY private-sector employers must comply.",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
@@ -33,12 +33,12 @@
       "status": "recent",
       "effective_date": "2026-02-19",
       "deadline": "2026-02-19",
-      "summary": "NYC Releases Guidance and Mandatory Notice of Employee Rights as Unpaid Sick Leave Takes Effect and Enforcement Ramps Up Under Earned Safe and Sick Time Act \n On February 19, 2026, the New York City Department of Consumer and Worker Protection (DCWP) issued an updated set of  Frequently Asked Questions , as well as an updated  Notice of Employee Rights  that must be distributed to employees regula… [This entry was auto-pulled from Littler. Review the source article for full details and verify with your employment counsel before taking compliance action.]",
+      "summary": "NYC Releases Guidance and Mandatory Notice of Employee Rights as Unpaid Sick Leave Takes Effect and Enforcement Ramps Up Under Earned Safe and Sick Time Act \n On February 19, 2026, the New York City Department of Consumer and Worker Protection (DCWP) issued an updated set of  Frequently Asked Questions , as well as an updated  Notice of Employee Rights  that must be distributed to employees regula\u2026 [This entry was auto-pulled from Littler. Review the source article for full details and verify with your employment counsel before taking compliance action.]",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
       "compliance_actions": [
-        "⚠️ This entry was auto-detected from an RSS feed. Review the source article.",
+        "\u26a0\ufe0f This entry was auto-detected from an RSS feed. Review the source article.",
         "Consult your employment counsel before taking compliance action.",
         "Read the full article: https://www.littler.com/news-analysis/asap/nyc-releases-guidance-and-mandatory-notice-employee-rights-unpaid-sick-leave"
       ],
@@ -57,12 +57,12 @@
       "status": "recent",
       "effective_date": "2025-12-13",
       "deadline": "2025-12-13",
-      "summary": "New York Enacts Opioid Antagonist Requirements for Employers \n New York recently enacted legislation that will soon require employers that are federally mandated to maintain workplace first aid supplies to include an opioid antagonist, such as Naloxone or Narcan. The original bill, Senate Bill S5922‑A, was enacted on December 13, 2025, and added Labor Law §   27‑f, mandating that all employers sub… [This entry was auto-pulled from Littler. Review the source article for full details and verify with your employment counsel before taking compliance action.]",
+      "summary": "New York Enacts Opioid Antagonist Requirements for Employers \n New York recently enacted legislation that will soon require employers that are federally mandated to maintain workplace first aid supplies to include an opioid antagonist, such as Naloxone or Narcan. The original bill, Senate Bill S5922\u2011A, was enacted on December 13, 2025, and added Labor Law \u00a7 \u202f 27\u2011f, mandating that all employers sub\u2026 [This entry was auto-pulled from Littler. Review the source article for full details and verify with your employment counsel before taking compliance action.]",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
       "compliance_actions": [
-        "⚠️ This entry was auto-detected from an RSS feed. Review the source article.",
+        "\u26a0\ufe0f This entry was auto-detected from an RSS feed. Review the source article.",
         "Consult your employment counsel before taking compliance action.",
         "Read the full article: https://www.littler.com/news-analysis/asap/new-york-enacts-opioid-antagonist-requirements-employers"
       ],
@@ -81,7 +81,7 @@
       "status": "recent",
       "effective_date": null,
       "deadline": null,
-      "summary": "NYC's Expanded Leave Law Goes Into Effect \n Stephen Fuchs discusses new compliance expectations for employers from Mayor Mamdani’s administration under the expansion of NYC’s Earned Safe and Sick Time Act.  Law360 View  (Subscription required) \n mfelling@littler.com \n Wed, 03/04/2026 - 11:31... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "summary": "NYC's Expanded Leave Law Goes Into Effect \n Stephen Fuchs discusses new compliance expectations for employers from Mayor Mamdani\u2019s administration under the expansion of NYC\u2019s Earned Safe and Sick Time Act.\u00a0 Law360 View  (Subscription required) \n mfelling@littler.com \n Wed, 03/04/2026 - 11:31... [Auto-detected from Littler RSS. Verify with employment counsel.]",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
@@ -96,6 +96,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-42472",
+      "title": "New York Department of Health Issues Updated Guidance on Wage Parity Compliance Forms and Certification Submission Dates",
+      "status": "recent",
+      "effective_date": "2026-03-09",
+      "deadline": "2026-03-09",
+      "summary": "New York Department of Health Issues Updated Guidance on Wage Parity Compliance Forms and Certification Submission Dates \n On March 9, 2026, the New York Department of Health (DOH) issued  updated guidance  for Licensed Home Care Services Agencies (LHCSAs), Medicaid Managed Care Organizations (MMCOs), Certified Home Health Agencies (CHHAs), former Fiscal Intermediaries (FFIs), and the Statewide Fi... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/new-york-department-health-issues-updated-guidance-wage-parity-compliance-forms"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/new-york-department-health-issues-updated-guidance-wage-parity-compliance-forms",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-13",
       "_auto_generated": true,
       "_needs_review": true
     }
