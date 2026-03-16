@@ -404,7 +404,7 @@ def send(html_body, week_label, recipients):
         "MIME-Version: 1.0\n"
         'Content-Type: text/html; charset="utf-8"\n'
         "Content-Transfer-Encoding: base64\n"
-        f"Subject: {str(Header(subject, 'utf-8'))}\n"
+        f"Subject: {Header(subject, 'utf-8').encode()}\n"
         "From: jacqueline@itsovertime.com\n"
         f"To: {', '.join(recipients)}\n"
         "\n"
