@@ -97,7 +97,17 @@ def categorize(laws):
             upcoming.append(law)
             seen_upcoming.add(lid)
 
-        if updated and updated >= week_ago and status in ("recent", "upcoming") and lid not in seen_upcoming:
+        # New This Week:
+        #   auto-generated (RSS) entries: scraped within the last 7 days
+        #   manually-curated entries: only if effective_date is within last 60 days
+        effective      = parse_date(law.get("effective_date"))
+        is_auto        = law.get("_auto_generated", False)
+        sixty_days_ago = today - timedelta(days=60)
+        is_new = (
+            (is_auto and updated and updated >= week_ago)
+            or (not is_auto and effective and effective >= sixty_days_ago)
+        )
+        if is_new and status in ("recent", "upcoming") and lid not in seen_upcoming:
             new_week.append(law)
 
         if status == "repealed":
@@ -385,7 +395,7 @@ def send(html_body, week_label, recipients):
     msg["Subject"] = f"Employment Law Digest â Week of {week_label}"
     msg["From"]    = "jacqueline@itsovertime.com"
     msg["To"]      = ", ".join(recipients)
-    msg.attach(MIMEText(html_body, "html"))
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
     raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
     service.users().messages().send(userId="me", body={"raw": raw}).execute()
     print(f"â Digest sent to: {', '.join(recipients)}")
