@@ -390,18 +390,17 @@ def get_gmail_service():
 
 
 def send(html_body, week_label, recipients):
+    from email.message import EmailMessage
+    import email.policy
     service = get_gmail_service()
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"Employment Law Digest â Week of {week_label}"
+    msg = EmailMessage(policy=email.policy.SMTP)
+    msg["Subject"] = f"Employment Law Digest {chr(0x2014)} Week of {week_label}"
     msg["From"]    = "jacqueline@itsovertime.com"
     msg["To"]      = ", ".join(recipients)
-    msg.attach(MIMEText(html_body, "html", "utf-8"))
+    msg.set_content(html_body, subtype="html", charset="utf-8")
     raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
     service.users().messages().send(userId="me", body={"raw": raw}).execute()
-    print(f"â Digest sent to: {', '.join(recipients)}")
-
-
-# ââ Entry point âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+    print(f"\u2714 Digest sent to: {', '.join(recipients)}")
 
 def run():
     required = ["GMAIL_CLIENT_ID", "GMAIL_CLIENT_SECRET",
