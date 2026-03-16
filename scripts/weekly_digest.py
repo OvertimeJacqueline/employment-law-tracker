@@ -390,15 +390,27 @@ def get_gmail_service():
 
 
 def send(html_body, week_label, recipients):
-    from email.message import EmailMessage
-    import email.policy
+    from email.header import Header
     service = get_gmail_service()
-    msg = EmailMessage(policy=email.policy.SMTP)
-    msg["Subject"] = f"Employment Law Digest {chr(0x2014)} Week of {week_label}"
-    msg["From"]    = "jacqueline@itsovertime.com"
-    msg["To"]      = ", ".join(recipients)
-    msg.set_content(html_body, subtype="html", charset="utf-8")
-    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+
+    subject = f"Employment Law Digest {chr(0x2014)} Week of {week_label}"
+
+    # Encode HTML as base64 UTF-8 — fully ASCII-safe, no charset ambiguity for Gmail
+    html_b64_raw = base64.b64encode(html_body.encode("utf-8")).decode("ascii")
+    html_b64 = "\n".join(html_b64_raw[i:i+76] for i in range(0, len(html_b64_raw), 76))
+
+    # Build MIME headers explicitly — every encoding decision is transparent
+    mime_msg = (
+        "MIME-Version: 1.0\n"
+        'Content-Type: text/html; charset="utf-8"\n'
+        "Content-Transfer-Encoding: base64\n"
+        f"Subject: {str(Header(subject, 'utf-8'))}\n"
+        "From: jacqueline@itsovertime.com\n"
+        f"To: {', '.join(recipients)}\n"
+        "\n"
+        + html_b64
+    )
+    raw = base64.urlsafe_b64encode(mime_msg.encode("ascii")).decode()
     service.users().messages().send(userId="me", body={"raw": raw}).execute()
     print(f"\u2714 Digest sent to: {', '.join(recipients)}")
 
