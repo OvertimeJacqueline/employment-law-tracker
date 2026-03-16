@@ -390,29 +390,32 @@ def get_gmail_service():
 
 
 def send(html_body, week_label, recipients):
-    import email.policy
-    from email.message import EmailMessage
-    from email.generator import BytesGenerator
-    from io import BytesIO
-
+    from email.header import Header
     service = get_gmail_service()
 
-    msg = EmailMessage(policy=email.policy.SMTP)
-    msg['Subject'] = f'Employment Law Digest {chr(0x2014)} Week of {week_label}'
-    msg['From'] = 'jacqueline@itsovertime.com'
-    msg['To'] = ', '.join(recipients)
+    # Escape every non-ASCII character as an HTML numeric entity (&#NNNN;).
+    # The resulting body is 100% pure ASCII — no charset interpretation,
+    # no Content-Transfer-Encoding ambiguity.  Gmail renders &#8212; as —
+    # and &#128197; as 📅 exactly as intended.  This sidesteps every MIME
+    # encoding issue that has caused garbling in previous runs.
+    html_body = html_body.encode('ascii', 'xmlcharrefreplace').decode('ascii')
 
-    # set_content with explicit cte='base64' forces base64 body encoding.
-    # BytesGenerator with SMTP policy enforces CRLF line endings so Gmail's
-    # MIME parser correctly finds Content-Transfer-Encoding before the body.
-    msg.set_content(html_body, subtype='html', charset='utf-8', cte='base64')
+    subject = f'Employment Law Digest \u2014 Week of {week_label}'
+    subject_encoded = Header(subject, 'utf-8').encode()
 
-    buf = BytesIO()
-    gen = BytesGenerator(buf, policy=email.policy.SMTP)
-    gen.flatten(msg)
-    msg_bytes = buf.getvalue()
-
-    raw = base64.urlsafe_b64encode(msg_bytes).decode()
+    # RFC 2822 requires CRLF (\r\n) line endings.
+    # Body is pure ASCII so 7bit / us-ascii is unambiguous.
+    mime_msg = (
+        "MIME-Version: 1.0\r\n"
+        'Content-Type: text/html; charset="us-ascii"\r\n'
+        "Content-Transfer-Encoding: 7bit\r\n"
+        f"Subject: {subject_encoded}\r\n"
+        "From: jacqueline@itsovertime.com\r\n"
+        f"To: {', '.join(recipients)}\r\n"
+        "\r\n"
+        + html_body
+    )
+    raw = base64.urlsafe_b64encode(mime_msg.encode('ascii')).decode()
     service.users().messages().send(userId='me', body={'raw': raw}).execute()
     print(f'\u2714 Digest sent to: {", ".join(recipients)}')
 
