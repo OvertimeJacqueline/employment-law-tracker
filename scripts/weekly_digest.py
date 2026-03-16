@@ -375,7 +375,7 @@ def get_gmail_service():
         client_id=os.environ["GMAIL_CLIENT_ID"],
         client_secret=os.environ["GMAIL_CLIENT_SECRET"],
         token_uri="https://oauth2.googleapis.com/token",
-        scopes=["https://www.googleapis.com/auth/gmail.send"],
+        scopes=["https://mail.google.com/"],
     )
     return build("gmail", "v1", credentials=creds)
 
