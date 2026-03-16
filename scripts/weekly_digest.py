@@ -390,29 +390,32 @@ def get_gmail_service():
 
 
 def send(html_body, week_label, recipients):
-    from email.header import Header
+    import email.policy
+    from email.message import EmailMessage
+    from email.generator import BytesGenerator
+    from io import BytesIO
+
     service = get_gmail_service()
 
-    subject = f"Employment Law Digest {chr(0x2014)} Week of {week_label}"
+    msg = EmailMessage(policy=email.policy.SMTP)
+    msg['Subject'] = f'Employment Law Digest {chr(0x2014)} Week of {week_label}'
+    msg['From'] = 'jacqueline@itsovertime.com'
+    msg['To'] = ', '.join(recipients)
 
-    # Encode HTML as base64 UTF-8 — fully ASCII-safe, no charset ambiguity for Gmail
-    html_b64_raw = base64.b64encode(html_body.encode("utf-8")).decode("ascii")
-    html_b64 = "\n".join(html_b64_raw[i:i+76] for i in range(0, len(html_b64_raw), 76))
+    # set_content with explicit cte='base64' forces base64 body encoding.
+    # BytesGenerator with SMTP policy enforces CRLF line endings so Gmail's
+    # MIME parser correctly finds Content-Transfer-Encoding before the body.
+    msg.set_content(html_body, subtype='html', charset='utf-8', cte='base64')
 
-    # Build MIME headers explicitly — every encoding decision is transparent
-    mime_msg = (
-        "MIME-Version: 1.0\n"
-        'Content-Type: text/html; charset="utf-8"\n'
-        "Content-Transfer-Encoding: base64\n"
-        f"Subject: {Header(subject, 'utf-8').encode()}\n"
-        "From: jacqueline@itsovertime.com\n"
-        f"To: {', '.join(recipients)}\n"
-        "\n"
-        + html_b64
-    )
-    raw = base64.urlsafe_b64encode(mime_msg.encode("ascii")).decode()
-    service.users().messages().send(userId="me", body={"raw": raw}).execute()
-    print(f"\u2714 Digest sent to: {', '.join(recipients)}")
+    buf = BytesIO()
+    gen = BytesGenerator(buf, policy=email.policy.SMTP)
+    gen.flatten(msg)
+    msg_bytes = buf.getvalue()
+
+    raw = base64.urlsafe_b64encode(msg_bytes).decode()
+    service.users().messages().send(userId='me', body={'raw': raw}).execute()
+    print(f'\u2714 Digest sent to: {", ".join(recipients)}')
+
 
 def run():
     required = ["GMAIL_CLIENT_ID", "GMAIL_CLIENT_SECRET",
