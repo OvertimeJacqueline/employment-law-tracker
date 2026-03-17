@@ -120,6 +120,38 @@ def h(text):
     """Minimal HTML escaping."""
     return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+def clean_rss_summary(raw, title=""):
+    """Strip noise that Littler RSS injects into auto-detected summaries:
+       - Leading title repetition (the title is already in the <h3>)
+       - Author email + Drupal date stamp  (e.g. "author@firm.com Mon, 03/10/2026 - 11:05")
+       - Standalone email addresses
+       - Trailing "[Auto-detected from Littler RSS...]" tag
+    """
+    import re
+    text = raw.strip()
+    # 1. Strip leading title if summary begins with it
+    if title:
+        raw_title = title.strip()
+        if text.startswith(raw_title):
+            text = text[len(raw_title):].lstrip(" \t\n\r:-")
+        else:
+            # Fuzzy: match on the first 8 words of the title
+            prefix = " ".join(raw_title.split()[:8])
+            if text.lower().startswith(prefix.lower()):
+                text = text[len(prefix):].lstrip(" \t\n\r:-")
+    # 2. Remove Drupal author-email + date: "author@firm.com Mon, 03/10/2026 - 11:05..."
+    text = re.sub(
+        r'\s*[\w.+%-]+@[\w.-]+\.[a-zA-Z]{2,}\s+\w+,\s+\d{2}/\d{2}/\d{4}\s*-\s*\d{2}:\d{2}[^\[]*',
+        '', text
+    ).strip()
+    # 3. Remove any remaining bare email addresses
+    text = re.sub(r'\s*[\w.+%-]+@[\w.-]+\.[a-zA-Z]{2,}\b', '', text).strip()
+    # 4. Remove "[Auto-detected from...]" tag
+    text = re.sub(r'\s*\[Auto-detected from[^\]]*\]', '', text, flags=re.IGNORECASE).strip()
+    # 5. Collapse runs of whitespace
+    text = re.sub(r'  +', ' ', text)
+    return text.strip()
+
 def days_badge(days):
     if days <= 30:
         color, icon = "#dc2626", "\u26a0\ufe0f"
@@ -137,8 +169,12 @@ def law_card(law, show_dl=False):
     jur      = h(law.get("_jurisdiction", ""))
     priority = law.get("_priority", False)
     is_auto  = law.get("_auto_generated", False)
-    title    = h(law.get("title", ""))
-    summary  = h(law.get("summary", "")[:450] + ("\u2026" if len(law.get("summary", "")) > 450 else ""))
+    raw_title = law.get("title", "")
+    title    = h(raw_title)
+    raw_summary = law.get("summary", "")
+    if is_auto:
+        raw_summary = clean_rss_summary(raw_summary, raw_title)
+    summary  = h(raw_summary[:450] + ("\u2026" if len(raw_summary) > 450 else ""))
     source_url = law.get("source_url", "")
     dl       = parse_date(law.get("deadline") or law.get("effective_date"))
     actions  = [a for a in law.get("compliance_actions", [])
