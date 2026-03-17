@@ -3,11 +3,11 @@
   "laws": [
     {
       "id": "fl-001",
-      "title": "Florida Minimum Wage \u2011 \u2010#15.00/hr Coming September 30, 2026",
+      "title": "Florida Minimum Wage \u2014 $15.00/hr Coming September 30, 2026",
       "status": "upcoming",
       "effective_date": "2026-09-30",
       "deadline": "2026-09-30",
-      "summary": "Florida's minimum wage is on a path to $15.00/hr by September 30, 2026, as mandated by Amendment 2 (voter-approved in 2020). The current rate is $14.00/hr (effective Sept 30, 2025). On September 30, 2026, the rate increases to $15.00/hr \u2014 the final scheduled step. Tipped employees: current direct wage is $10.98/hr; will increase to $11.98/hr on Sep  30, 2026 (with a $3.02 tip credit). After 2026, future increases will be CPI-indexed annually.",
+      "summary": "Florida's minimum wage is on a path to $15.00/hr by September 30, 2026, as mandated by Amendment 2 (voter-approved in 2020). The current rate is $14.00/hr (effective Sept 30, 2025). On September 30, 2026, the rate increases to $15.00/hr \u2014 the final scheduled step. Tipped employees: current direct wage is $10.98/hr; will increase to $11.98/hr on Sep 30, 2026 (with a $3.02 tip credit). After 2026, future increases will be CPI-indexed annually.",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
@@ -20,13 +20,7 @@
       ],
       "source": "Ogletree Deakins",
       "source_url": "https://ogletree.com/insights-resources/blog-posts/2026-state-and-major-locality-minimum-wage-updates/",
-      "tags": [
-        "minimum wage",
-        "Florida",
-        "Amendment 2",
-        "2026",
-        "upcoming"
-      ],
+      "tags": ["minimum wage", "Florida", "Amendment 2", "2026", "upcoming"],
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-03"
@@ -49,12 +43,7 @@
       ],
       "source": "Jackson Lewis",
       "source_url": "https://www.jacksonlewis.com/insights/florida-enacts-sweeping-immigration-employment-law-sb-1718",
-      "tags": [
-        "E-Verify",
-        "Florida",
-        "immigration",
-        "I-9"
-      ],
+      "tags": ["E-Verify", "Florida", "immigration", "I-9"],
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-03"
