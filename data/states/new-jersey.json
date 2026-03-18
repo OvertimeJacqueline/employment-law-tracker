@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-03-18",
   "laws": [
     {
       "id": "nj-001",
-      "title": "New Jersey Minimum Wage — $15.92/hr Large Employers (Effective Jan 1, 2026)",
+      "title": "New Jersey Minimum Wage \u2014 $15.92/hr Large Employers (Effective Jan 1, 2026)",
       "status": "recent",
       "effective_date": "2026-01-01",
       "deadline": null,
@@ -26,6 +26,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-10"
+    },
+    {
+      "id": "lit-6260",
+      "title": "Third Circuit Ames to Level Playing Field for Reverse Discrimination Claimants under New Jersey\u2019s Law Against Discrimination",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Third Circuit  Ames  to Level Playing Field for Reverse Discrimination Claimants under New Jersey\u2019s Law Against Discrimination \n Since 1990, the New Jersey Supreme Court has held \u201cmajority-group\u201d discrimination plaintiffs \u2013 those alleging they have been discriminated against in favor of member of a minority group \u2013 to a heightened standard of proof under the New Jersey Law Against Discrimination (... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/third-circuit-ames-level-playing-field-reverse-discrimination-claimants-under"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/third-circuit-ames-level-playing-field-reverse-discrimination-claimants-under",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-18",
+      "_auto_generated": true,
+      "_needs_review": true
     }
   ]
 }
