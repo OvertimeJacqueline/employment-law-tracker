@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12",
+  "last_updated": "2026-03-19",
   "laws": [
     {
       "id": "fed-001",
@@ -357,6 +357,54 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-12",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-70038",
+      "title": "Ones To Watch: Legislation Landscape for 2026",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Ones To Watch: Legislation Landscape for 2026 \n Ones To Watch is back with Littler\u2019s fourth annual forecast of the year\u2019s trendiest topics in federal and state labor and employment-related legislation. Three months into the year, with all but a handful of state legislatures currently in session, several trends have emerged for 2026. While we cannot know which of these will ultimately be enacted, t... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/ones-watch-legislation-landscape-2026"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/ones-watch-legislation-landscape-2026",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-19",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-81622",
+      "title": "Washington Updates Paid Family and Medical Leave Premium Split to Align with Federal Tax Guidance",
+      "status": "recent",
+      "effective_date": "2025-03-11",
+      "deadline": "2025-03-11",
+      "summary": "Washington Updates Paid Family and Medical Leave Premium Split to Align with Federal Tax Guidance \n On March 11, 2025, Governor Bob Ferguson signed  Second Substitute House Bill 2345  (HB 2345). The new law revises how the Washington Paid Family and Medical Leave (PFML) premium requirements are allocated between employers and employees to address  Internal Revenue Service (IRS) guidance .\u00a0 \n tgelb... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/washington-updates-paid-family-and-medical-leave-premium-split-align-federal-tax"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/washington-updates-paid-family-and-medical-leave-premium-split-align-federal-tax",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-19",
       "_auto_generated": true,
       "_needs_review": true
     }
