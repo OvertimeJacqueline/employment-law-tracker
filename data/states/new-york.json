@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "laws": [
     {
       "id": "ny-001",
@@ -100,7 +100,7 @@
       "_needs_review": true
     },
     {
-      "id": "lit-87153",
+      "id": "lit-80068",
       "title": "New York Department of Health Issues Updated Guidance on Wage Parity Compliance Forms and Certification Submission Dates",
       "status": "recent",
       "effective_date": "2026-03-09",
@@ -119,7 +119,7 @@
       "tags": [],
       "momentum_level": null,
       "repeal_notes": null,
-      "last_updated": "2026-03-20",
+      "last_updated": "2026-03-21",
       "_auto_generated": true,
       "_needs_review": true
     }
