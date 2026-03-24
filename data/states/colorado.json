@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-24",
   "laws": [
     {
       "id": "co-001",
@@ -79,6 +79,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-75918",
+      "title": "Colorado\u2019s Artificial Intelligence Law Could Be on the Chopping Block",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Colorado\u2019s Artificial Intelligence Law Could Be on the Chopping Block \n When he signed Colorado\u2019s  artificial intelligence law  (SB 24-205, the \u201cAct\u201d) into law, Colorado Governor Jared Polis told the Colorado General Assembly, by letter, that he did so \u201cwith reservations.\u201d Polis criticized the Act for \u201ccreat[ing] a complex compliance regime,\u201d and expressed \u201cconcern[] about [its] impact . . \n tgelb... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/colorados-artificial-intelligence-law-could-be-chopping-block"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/colorados-artificial-intelligence-law-could-be-chopping-block",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-24",
       "_auto_generated": true,
       "_needs_review": true
     }

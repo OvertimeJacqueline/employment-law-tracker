@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19",
+  "last_updated": "2026-03-24",
   "laws": [
     {
       "id": "fed-001",
@@ -405,6 +405,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-19",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-40074",
+      "title": "3rd Circ. Must Reject EEOC's Flawed Equal Pay Theory",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "3rd Circ. Must Reject EEOC's Flawed Equal Pay Theory \n Allan King argues that in Cartee-Haring and Marinello v. Central Bucks School District, prima facie evidence of an Equal Pay Act violation must demand more than anecdotal evidence regarding a single comparator.\u00a0 Law360 View  (Subscription required) \n mfelling@littler.com \n Mon, 03/23/2026 - 12:11... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/press/external-publication/3rd-circ-must-reject-eeocs-flawed-equal-pay-theory"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/press/external-publication/3rd-circ-must-reject-eeocs-flawed-equal-pay-theory",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-24",
       "_auto_generated": true,
       "_needs_review": true
     }
