@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-03-25",
   "laws": [
     {
       "id": "il-001",
@@ -7,14 +7,14 @@
       "status": "recent",
       "effective_date": "2024-01-01",
       "deadline": null,
-      "summary": "Illinois requires all employers to provide employees up to 40 hours of paid leave per 12-month period, which employees may use for any reason — no explanation required. Employees earn 1 hour of paid leave for every 40 hours worked. There are no employer size exemptions; all employers in Illinois must comply.",
+      "summary": "Illinois requires all employers to provide employees up to 40 hours of paid leave per 12-month period, which employees may use for any reason \u2014 no explanation required. Employees earn 1 hour of paid leave for every 40 hours worked. There are no employer size exemptions; all employers in Illinois must comply.",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
       "compliance_actions": [
         "Adopt a written paid leave policy stating the accrual rate (1 hour per 40 hours worked, up to 40 hours/year) and permitted uses",
         "Track accrual and usage separately from other leave types and provide employees access to their current balance",
-        "Do not require employees to give a reason for taking paid leave — usage for any purpose is protected",
+        "Do not require employees to give a reason for taking paid leave \u2014 usage for any purpose is protected",
         "Retain payroll and leave records for a minimum of 3 years"
       ],
       "source": "Illinois Department of Labor",
@@ -26,6 +26,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-10"
+    },
+    {
+      "id": "lit-82096",
+      "title": "Chicago Agency Proposes Changes to Fair Workweek Rules",
+      "status": "proposed",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Chicago Agency Proposes Changes to Fair Workweek Rules \n The Chicago Office of Labor Standards (OLS) has proposed changes to the rules implementing the city\u2019s Fair Workweek Ordinance. 1  The Ordinance requires covered employers to provide advance notice of work schedules to their covered employees, and to pay additional wages if posted schedules are changed within a certain time period. The Ordina... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/chicago-agency-proposes-changes-fair-workweek-rules"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/chicago-agency-proposes-changes-fair-workweek-rules",
+      "tags": [],
+      "momentum_level": "Low",
+      "repeal_notes": null,
+      "last_updated": "2026-03-25",
+      "_auto_generated": true,
+      "_needs_review": true
     }
   ]
 }
