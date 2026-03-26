@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25",
+  "last_updated": "2026-03-26",
   "laws": [
     {
       "id": "fed-001",
@@ -453,6 +453,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-25",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-69087",
+      "title": "AI Legal Risks Abound Despite Trump\u2019s Push for Federal Policy",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "AI Legal Risks Abound Despite Trump\u2019s Push for Federal Policy \n Niloy Ray says even if AI laws are preempted, companies still face the threat of discrimination lawsuits if an AI human resources system disproportionately rejects job or promotion candidates of certain protected classes.\u00a0 Bloomberg Law View  (Subscription required) \n mfelling@littler.com \n Wed, 03/25/2026 - 16:04... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/press/news/ai-legal-risks-abound-despite-trumps-push-federal-policy"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/press/news/ai-legal-risks-abound-despite-trumps-push-federal-policy",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-26",
       "_auto_generated": true,
       "_needs_review": true
     }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-03-26",
   "laws": [
     {
       "id": "ca-001",
@@ -186,6 +186,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-18",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-79553",
+      "title": "7 Employer Tips For Handling Calif. Privacy Risk Assessments",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "7 Employer Tips For Handling Calif. Privacy Risk Assessments \n Zoe Argento and Denise Tran-Nguyen walk California employers through seven steps they should start taking now to comply with the CCPA's risk assessment requirements.\u00a0 Law360 View  (Subscription required) \n mfelling@littler.com \n Wed, 03/25/2026 - 16:23... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/press/external-publication/7-employer-tips-handling-calif-privacy-risk-assessments"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/press/external-publication/7-employer-tips-handling-calif-privacy-risk-assessments",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-26",
       "_auto_generated": true,
       "_needs_review": true
     }

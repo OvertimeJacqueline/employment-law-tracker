@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25",
+  "last_updated": "2026-03-26",
   "laws": [
     {
       "id": "ny-001",
@@ -96,30 +96,6 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-04",
-      "_auto_generated": true,
-      "_needs_review": true
-    },
-    {
-      "id": "lit-97811",
-      "title": "New York Department of Health Issues Updated Guidance on Wage Parity Compliance Forms and Certification Submission Dates",
-      "status": "recent",
-      "effective_date": "2026-03-09",
-      "deadline": "2026-03-09",
-      "summary": "New York Department of Health Issues Updated Guidance on Wage Parity Compliance Forms and Certification Submission Dates \n On March 9, 2026, the New York Department of Health (DOH) issued  updated guidance  for Licensed Home Care Services Agencies (LHCSAs), Medicaid Managed Care Organizations (MMCOs), Certified Home Health Agencies (CHHAs), former Fiscal Intermediaries (FFIs), and the Statewide Fi... [Auto-detected from Littler RSS. Verify with employment counsel.]",
-      "applies_to_company": true,
-      "min_employee_threshold": null,
-      "employee_threshold_note": null,
-      "compliance_actions": [
-        "Auto-detected from RSS feed. Review source article for accuracy.",
-        "Consult your employment counsel before taking compliance action.",
-        "Read the full article: https://www.littler.com/news-analysis/asap/new-york-department-health-issues-updated-guidance-wage-parity-compliance-forms"
-      ],
-      "source": "Littler",
-      "source_url": "https://www.littler.com/news-analysis/asap/new-york-department-health-issues-updated-guidance-wage-parity-compliance-forms",
-      "tags": [],
-      "momentum_level": null,
-      "repeal_notes": null,
-      "last_updated": "2026-03-25",
       "_auto_generated": true,
       "_needs_review": true
     }

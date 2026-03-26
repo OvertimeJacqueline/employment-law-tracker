@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-03-26",
   "laws": [
     {
       "id": "ma-001",
-      "title": "Massachusetts Minimum Wage — $15.00/hr",
+      "title": "Massachusetts Minimum Wage \u2014 $15.00/hr",
       "status": "recent",
       "effective_date": "2023-01-01",
       "deadline": null,
-      "summary": "Massachusetts' minimum wage is $15.00 per hour, effective January 1, 2023 — no further scheduled increases are currently mandated by state law. Tipped employees must receive at least $6.75/hour from the employer, with tips required to bring the total to at least $15.00/hour.",
+      "summary": "Massachusetts' minimum wage is $15.00 per hour, effective January 1, 2023 \u2014 no further scheduled increases are currently mandated by state law. Tipped employees must receive at least $6.75/hour from the employer, with tips required to bring the total to at least $15.00/hour.",
       "applies_to_company": true,
       "min_employee_threshold": null,
       "employee_threshold_note": null,
@@ -26,6 +26,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-10"
+    },
+    {
+      "id": "lit-28234",
+      "title": "Liability Under Massachusetts Paid Family and Medical Leave",
+      "status": "recent",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "Liability Under Massachusetts Paid Family and Medical Leave \n As the Massachusetts Paid Family and Medical Leave (PFML) law continues to mature, courts have begun to articulate with greater precision the scope of employer obligations and the limits of liability under the statute. For in\u2011house attorneys and human resources professionals responsible for administering leave, accommodations, and sick... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/liability-under-massachusetts-paid-family-and-medical-leave"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/liability-under-massachusetts-paid-family-and-medical-leave",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-26",
+      "_auto_generated": true,
+      "_needs_review": true
     }
   ]
 }
