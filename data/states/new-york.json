@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "laws": [
     {
       "id": "ny-001",
@@ -96,6 +96,30 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-04",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-77031",
+      "title": "New York City Proposes Bill That Sets Higher Minimum Wages and Eliminates Tip Credits",
+      "status": "proposed",
+      "effective_date": "2026-03-10",
+      "deadline": "2026-03-10",
+      "summary": "New York City Proposes Bill That Sets Higher Minimum Wages and Eliminates Tip Credits \n The New York City Council on March 10, 2026, introduced proposed legislation (Bill Int. No. 757, referred to as the \u201cNew York City Minimum Wage Act\u201d) that would create a New York City minimum wage higher than the current state standard. If enacted, the New York City Minimum Wage Act would implement phased incre... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/new-york-city-proposes-bill-sets-higher-minimum-wages-and-eliminates-tip-credits"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/new-york-city-proposes-bill-sets-higher-minimum-wages-and-eliminates-tip-credits",
+      "tags": [],
+      "momentum_level": "Low",
+      "repeal_notes": null,
+      "last_updated": "2026-03-27",
       "_auto_generated": true,
       "_needs_review": true
     }
