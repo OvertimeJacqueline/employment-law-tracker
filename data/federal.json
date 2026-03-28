@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-28",
   "laws": [
     {
       "id": "fed-001",
@@ -477,6 +477,54 @@
       "momentum_level": null,
       "repeal_notes": null,
       "last_updated": "2026-03-26",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-72802",
+      "title": "Executive Order 11246 Redux: Trump\u2019s New Executive Order on DEI Calls for Renewed Scrutiny of Government Contractors",
+      "status": "recent",
+      "effective_date": "2026-03-26",
+      "deadline": "2026-03-26",
+      "summary": "Executive Order 11246 Redux: Trump\u2019s New Executive Order on DEI Calls for Renewed Scrutiny of Government Contractors \n On March 26, 2026, President Trump issued an executive order,  Addressing DEI Discrimination by Federal Contractors . \n tgelbman@littler.com \n Fri, 03/27/2026 - 15:30... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/executive-order-11246-redux-trumps-new-executive-order-dei-calls-renewed"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/executive-order-11246-redux-trumps-new-executive-order-dei-calls-renewed",
+      "tags": [],
+      "momentum_level": null,
+      "repeal_notes": null,
+      "last_updated": "2026-03-28",
+      "_auto_generated": true,
+      "_needs_review": true
+    },
+    {
+      "id": "lit-39773",
+      "title": "DOL Proposed Rule Seeks Higher Prevailing Wages Levels for Foreign Workers",
+      "status": "proposed",
+      "effective_date": null,
+      "deadline": null,
+      "summary": "DOL Proposed Rule Seeks Higher Prevailing Wages Levels for Foreign Workers \n The U.S. Department of Labor is scheduled to issue a  proposed rule  that would increase and re-adjust the \u201cprevailing wage\u201d levels for key employment-based immigration sponsorship programs. The prevailing wage rate refers to the average salary paid to workers in similar positions within a designated occupation in the are... [Auto-detected from Littler RSS. Verify with employment counsel.]",
+      "applies_to_company": true,
+      "min_employee_threshold": null,
+      "employee_threshold_note": null,
+      "compliance_actions": [
+        "Auto-detected from RSS feed. Review source article for accuracy.",
+        "Consult your employment counsel before taking compliance action.",
+        "Read the full article: https://www.littler.com/news-analysis/asap/dol-proposed-rule-seeks-higher-prevailing-wages-levels-foreign-workers"
+      ],
+      "source": "Littler",
+      "source_url": "https://www.littler.com/news-analysis/asap/dol-proposed-rule-seeks-higher-prevailing-wages-levels-foreign-workers",
+      "tags": [],
+      "momentum_level": "Low",
+      "repeal_notes": null,
+      "last_updated": "2026-03-28",
       "_auto_generated": true,
       "_needs_review": true
     }
